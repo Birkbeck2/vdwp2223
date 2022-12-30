@@ -10,9 +10,9 @@ This repository holds lecture notes for the Web Project side of Visual Design an
 
 We have one main textbook for programming concepts and vanilla JavaScript: Marijn Haverbeke, *Eloquent JavaScript: A Modern Introduction to Programming* (EJS), third edition, 2018, [https://eloquentjavascript.net/](https://eloquentjavascript.net/).
 
-For the Vue.js JavaScript framework, we will rely mainly on the official documentation at **vuejs.org**.
+For the Vue.js JavaScript framework, we will rely mainly on the official documentation at [vuejs.org](https://vuejs.org/guide/introduction.html).
 
-## Review
+## Prerequisites
 
 The first JavaScript session on setup, values, and data types can be found in the [repository for last term](https://github.com/Birkbeck2/web-dev-ux-lectures-22-23#coding-session-9---introduction-to-programming-with-javascript).
 
