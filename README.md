@@ -12,6 +12,10 @@ We have one main textbook for programming concepts and vanilla JavaScript: Marij
 
 For the Vue.js JavaScript framework, we will rely mainly on the official documentation at **vuejs.org**.
 
+## Review
+
+The first JavaScript session on setup, values, and data types can be found in the [repository for last term](https://github.com/Birkbeck2/web-dev-ux-lectures-22-23#coding-session-9---introduction-to-programming-with-javascript).
+
 ## Session 1 - Simple programs in JavaScript
 
 ### Learning outcomes
