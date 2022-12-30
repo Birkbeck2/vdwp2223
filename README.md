@@ -29,7 +29,7 @@ Students will be able to do the following with JavaScript:
 ### Reading
 
 #### Priority
-- [EJS](https://eloquentjavascript.net/index.html) chapters 2 & 3
+- [EJS](https://eloquentjavascript.net) chapters 2 & 3
 
 ### Assigning variables
 
@@ -60,10 +60,10 @@ Students will be able to do the following with JavaScript:
 ### Reading
 
 #### Priority
-- [EJS](https://eloquentjavascript.net/index.html) chapter 4
+- [EJS](https://eloquentjavascript.net) chapter 4
 
 #### Also recommended
-- [EJS](https://eloquentjavascript.net/index.html) chapters 6 & 10
+- [EJS](https://eloquentjavascript.net) chapters 6 & 10
 
 ### Forming data sets with arrays
 
@@ -99,11 +99,11 @@ Students will be able to do the following with JavaScript:
 ### Reading
 
 #### Priority
-- [EJS](https://eloquentjavascript.net/index.html) chapters 13 & 18
+- [EJS](https://eloquentjavascript.net) chapters 13 & 18
 - “Introducing JSON,” json.org, [https://www.json.org/json-en.html](https://www.json.org/json-en.html)
 
 #### Also recommended
-- [EJS](https://eloquentjavascript.net/index.html) chapters 15 & 17
+- [EJS](https://eloquentjavascript.net) chapters 15 & 17
 
 ### How JavaScript interacts with a webpage
 
