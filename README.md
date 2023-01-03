@@ -77,7 +77,7 @@ Students will be able to do the following with JavaScript:
 
 > objects, properties, maps, destructuring, methods, classes, `class`, inheritance, polymorphism, `instanceof`, `constructor`, `new`
 
-### Organizing, borrowing, and sharing code
+### Organizing, borrowing, and sharing JavaScript files
 
 > modules, `import`, `export`, `default`, CDNs
 
