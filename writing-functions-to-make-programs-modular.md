@@ -47,6 +47,7 @@ let numFish = function(goldfish, carp) {
 }
 console.log(fish(5,2));
 ```
+## Function scope
 
 Function scope: Variables declared within a function, cannot be accessed outside of it. Local variables have function scope and can only be accessed from within a function.
 
