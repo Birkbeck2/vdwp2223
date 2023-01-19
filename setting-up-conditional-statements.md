@@ -12,6 +12,8 @@ Conditionals are how a program is able to act in a non-linear way (also called c
 
 Conditionals are the DECISION part of programming.
 
+## If
+
 A conditional is a block of code that is executed depending on the true/false value of a statement (if the statement is true, the code is executed, but not if false).
 
 In JavaScript you create a conditional using the keyword `if`. The statement being assessed (the condition) comes after the `if` keyword in brackets `()` and is followed by the code to be executed. If the condition is true and there is more than one line of code to be executed, these are placed in curly brackets `{}`.
@@ -24,6 +26,8 @@ if(haveSunshine == true){
   console.log("It is sunny");
 }
 ```
+
+## If else
 
 If you want some code to execute if the statement is assessed as false, you can use an `if else` statement.
 
@@ -67,6 +71,8 @@ if (num < 10) {
 }
 ```
 
+## While
+
 Sometimes you want to repeat an operation many times. You could do this by writing out the same code many times, but that is not very efficient:
 
 Example:
@@ -96,6 +102,8 @@ while (number <= 10) {
 ```
 
 If you forget to increase the variable used in the condition, the loop will never end. This will crash your browser.
+
+## Do while
 
 The `do while` loop is a special case of the `while` loop. It runs some code first, then checks the condition, and if that is true it runs the code again.
 
