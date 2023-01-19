@@ -9,6 +9,7 @@ Visual Design and Web Project | Coding Sessions | Helena Wee
 ## What is programming?
 
 *A Computer Glossary*  
+![A Computer Glossary - still](images/eamesprogramming.png)  
 [https://youtu.be/eIgX6sPOqCY?t=104](https://youtu.be/eIgX6sPOqCY?t=104)  
 Shown at IBM pavilion at the 1968 World's Fair. An Eames film with animation by Glen Fleck and original score by Elmer Bernstein.  
 (Whole video can be watched here: [https://www.youtube.com/watch?v=eIgX6sPOqCY&ab_channel=EamesOffice](https://www.youtube.com/watch?v=eIgX6sPOqCY&ab_channel=EamesOffice))
