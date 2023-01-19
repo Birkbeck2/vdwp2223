@@ -71,9 +71,9 @@ dogs
 # Let, const, var
 
 There are 3 ways to declare a variable in JavaScript:  
-- const: constant values, cannot be updated or redeclared within scope.
-- var: can be updated and redeclared within its scope (function-scoped). Hoisted, i.e. declaration, but not definition, moved to top of scope before code is executed.
-- let: can be updated but cannot be redeclared within its scope (block-scoped).
+- `const`: constant values, cannot be updated or redeclared within scope.
+- `var`: can be updated and redeclared within its scope (function-scoped). Hoisted, i.e. declaration, but not definition, moved to top of scope before code is executed.
+- `let`: can be updated but cannot be redeclared within its scope (block-scoped).
 
 Scope determines the accessibility (or visibility) of variables.
 
@@ -98,17 +98,17 @@ var vehicle1 = "bus";
 let goldfish = 3;
 ```
 
-In most cases, unless using a constant value, it is sufficient to use let.
+In most cases, unless using a constant value, it is sufficient to use `let`.
 
-In the case of declaring variables in global scope, both var and let will behave the same way.
+In the case of declaring variables in global scope, both `var` and `let` will behave the same way.
 
-The differences between let and var:  
+The differences between `let` and `var`:  
 [https://www.programiz.com/javascript/let-vs-var](https://www.programiz.com/javascript/let-vs-var)
 
 JavaScript variable names:  
 - cannot start with a number, but can contain numbers.
-- may include dollar signs ($) or underscores (_) but no other punctuation or special characters.
-- special keywords, such as let, and reserved words cannot be used as variable names.
+- may include dollar signs (`$`) or underscores (`_`) but no other punctuation or special characters.
+- special keywords, such as `let`, and reserved words cannot be used as variable names.
 
 Reserved words in JavaScript:  
 [https://www.w3schools.com/js/js_reserved.asp](https://www.w3schools.com/js/js_reserved.asp)
@@ -116,11 +116,11 @@ Reserved words in JavaScript:
 
 
 ## References
-[https://eloquentjavascript.net/02_program_structure.html](https://eloquentjavascript.net/02_program_structure.html)  
-[https://www.youtube.com/watch?v=eIgX6sPOqCY&ab_channel=EamesOffice](https://www.youtube.com/watch?v=eIgX6sPOqCY&ab_channel=EamesOffice)  
-[https://dev.to/adriennemiller/semicolons-in-javascript-to-use-or-not-to-use-2nli](https://dev.to/adriennemiller/semicolons-in-javascript-to-use-or-not-to-use-2nli)  
-[https://www.programiz.com/javascript/let-vs-var](https://www.programiz.com/javascript/let-vs-var)  
-[https://www.w3schools.com/js/js_reserved.asp](https://www.w3schools.com/js/js_reserved.asp)  
+[https://eloquentjavascript.net/02_program_structure.html](https://eloquentjavascript.net/02_program_structure.html)
+[https://www.youtube.com/watch?v=eIgX6sPOqCY&ab_channel=EamesOffice](https://www.youtube.com/watch?v=eIgX6sPOqCY&ab_channel=EamesOffice)
+[https://dev.to/adriennemiller/semicolons-in-javascript-to-use-or-not-to-use-2nli](https://dev.to/adriennemiller/semicolons-in-javascript-to-use-or-not-to-use-2nli)
+[https://www.programiz.com/javascript/let-vs-var](https://www.programiz.com/javascript/let-vs-var)
+[https://www.w3schools.com/js/js_reserved.asp](https://www.w3schools.com/js/js_reserved.asp)
 
 ## Rights
 Copyright Birkbeck, University of London
