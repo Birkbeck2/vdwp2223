@@ -8,20 +8,20 @@ Visual Design and Web Project | Coding Sessions | Helena Wee
 
 ## What is programming?
 
-*A Computer Glossary*
-[https://youtu.be/eIgX6sPOqCY?t=104](https://youtu.be/eIgX6sPOqCY?t=104)
-Shown at IBM pavilion at the 1968 World's Fair. An Eames film with animation by Glen Fleck and original score by Elmer Bernstein.
+*A Computer Glossary*  
+[https://youtu.be/eIgX6sPOqCY?t=104](https://youtu.be/eIgX6sPOqCY?t=104)  
+Shown at IBM pavilion at the 1968 World's Fair. An Eames film with animation by Glen Fleck and original score by Elmer Bernstein.  
 (Whole video can be watched here: [https://www.youtube.com/watch?v=eIgX6sPOqCY&ab_channel=EamesOffice](https://www.youtube.com/watch?v=eIgX6sPOqCY&ab_channel=EamesOffice))
 
-A program is a set of instructions for performing computer operations.
+A program is a set of instructions for performing computer operations.  
 
-MEMORY / ACTION / DECISION / REPETITION - The universal modules of any computer program:
-MEMORY >> Variables
-ACTION >> Functions
-DECISION >> Conditionals
-REPETITION >> Loops
+MEMORY / ACTION / DECISION / REPETITION - The universal modules of any computer program:  
+MEMORY >> Variables  
+ACTION >> Functions  
+DECISION >> Conditionals  
+REPETITION >> Loops  
 
-JavaScript is a programming language that can modify digital objects such as websites and datasets. (For more on this see Joe's lecture [here](https://github.com/Birkbeck2/web-dev-ux-lectures-22-23/blob/main/javascript-setup.md)).
+JavaScript is a programming language that can modify digital objects such as websites and datasets. (For more on this see Joe's lecture [here](https://github.com/Birkbeck2/web-dev-ux-lectures-22-23/blob/main/javascript-setup.md)).  
 
 # Statements
 
@@ -50,7 +50,7 @@ A program made of statements:
 !false;
 ```
 
-When to use or not use semicolons in JavaScript:
+When to use or not use semicolons in JavaScript:  
 [https://dev.to/adriennemiller/semicolons-in-javascript-to-use-or-not-to-use-2nli](https://dev.to/adriennemiller/semicolons-in-javascript-to-use-or-not-to-use-2nli)
 
 # Variables
@@ -70,7 +70,7 @@ dogs
 
 # Let, const, var
 
-There are 3 ways to declare a variable in JavaScript:
+There are 3 ways to declare a variable in JavaScript:  
 - const: constant values, cannot be updated or redeclared within scope.
 - var: can be updated and redeclared within its scope (function-scoped). Hoisted, i.e. declaration, but not definition, moved to top of scope before code is executed.
 - let: can be updated but cannot be redeclared within its scope (block-scoped).
@@ -102,21 +102,25 @@ In most cases, unless using a constant value, it is sufficient to use let.
 
 In the case of declaring variables in global scope, both var and let will behave the same way.
 
-The differences between let and var:
+The differences between let and var:  
 [https://www.programiz.com/javascript/let-vs-var](https://www.programiz.com/javascript/let-vs-var)
 
-JavaScript variable names:
+JavaScript variable names:  
 - cannot start with a number, but can contain numbers.
 - may include dollar signs ($) or underscores (_) but no other punctuation or special characters.
 - special keywords, such as let, and reserved words cannot be used as variable names.
 
-Reserved words in JavaScript:
+Reserved words in JavaScript:  
 [https://www.w3schools.com/js/js_reserved.asp](https://www.w3schools.com/js/js_reserved.asp)
 
 
 
 ## References
-
+[https://eloquentjavascript.net/02_program_structure.html](https://eloquentjavascript.net/02_program_structure.html)
+[https://www.youtube.com/watch?v=eIgX6sPOqCY&ab_channel=EamesOffice](https://www.youtube.com/watch?v=eIgX6sPOqCY&ab_channel=EamesOffice)
+[https://dev.to/adriennemiller/semicolons-in-javascript-to-use-or-not-to-use-2nli](https://dev.to/adriennemiller/semicolons-in-javascript-to-use-or-not-to-use-2nli)
+[https://www.programiz.com/javascript/let-vs-var](https://www.programiz.com/javascript/let-vs-var)
+[https://www.w3schools.com/js/js_reserved.asp](https://www.w3schools.com/js/js_reserved.asp)
 
 ## Rights
 Copyright Birkbeck, University of London
