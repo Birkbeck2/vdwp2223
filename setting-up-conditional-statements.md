@@ -21,7 +21,7 @@ Example:
 let haveSunshine = true;
 
 if(haveSunshine == true){
-	console.log("It is sunny");
+  console.log("It is sunny");
 }
 ```
 
@@ -32,9 +32,9 @@ Example:
 let haveSunshine = false;
 
 if(haveSunshine == true){
-	console.log("It is sunny");
+  console.log("It is sunny");
 } else {
-	console.log("It is cloudy");
+  console.log("It is cloudy");
 }
 ```
 
@@ -46,13 +46,13 @@ let haveSunshine = false;
 let isRaining = true;
 
 if (haveSunshine == true && isRaining == false){
-	console.log("It is sunny");
+  console.log("It is sunny");
 } else if(haveSunshine == true && isRaining == true){
-	console.log("It is sunny and raining");
+  console.log("It is sunny and raining");
 } else if(haveSunshine == false && isRaining == false){
-	console.log("It is cloudy");
+  console.log("It is cloudy");
 } else {
-	console.log("It is cloudy and raining");
+  console.log("It is cloudy and raining");
 }
 ```
 ```
@@ -106,8 +106,8 @@ Example:
 let text =""
 let i = 0;
 do{
-	text += i + "<br>"
-	i++;
+  text += i + "<br>"
+  i++;
 }
 while (i < 5);
 document.getElementById("demo").innerHTML = text;
