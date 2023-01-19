@@ -22,7 +22,7 @@ A function declaration uses the `function` keyword, followed by:
 Example:
 ```
 function pets(cats, dogs){
-	return cats + dogs;
+  return cats + dogs;
 }
 ```
 
@@ -43,7 +43,7 @@ let numPets = pets(3, 5);
 ```
 ```
 let numFish = function(goldfish, carp) {
-	return goldfish + carp;
+  return goldfish + carp;
 }
 console.log(fish(5,2));
 ```
