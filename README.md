@@ -39,7 +39,7 @@ Students will be able to do the following with JavaScript:
 
 > conditionals, `if`, `else`, `while`, `{}`, block scope
 
-### Writing functions to make programs modular
+### [Writing functions to make programs modular](writing-functions-to-make-programs-modular.md)
 
 > functions, `function`, `return`, `{}`, function scope
 
