@@ -2,7 +2,7 @@
 
 Visual Design and Web Project | Coding Sessions | Helena Wee
 
-[Previous](path/to/file.md) | [All](README.md) | [Next](path/to/file.md)
+[Previous](path/to/file.md) | [All](README.md) | [Next](writing-functions-to-make-programs-modular.md)
 
 # Setting up conditional statements
 
