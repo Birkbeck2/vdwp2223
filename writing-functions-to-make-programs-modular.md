@@ -59,8 +59,7 @@ The difference between global and local variables:
 
 ## References
 [https://eloquentjavascript.net/02_program_structure.html](https://eloquentjavascript.net/02_program_structure.html)  
-
-
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
 ## Rights
 Copyright Birkbeck, University of London
