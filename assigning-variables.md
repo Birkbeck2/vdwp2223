@@ -116,11 +116,11 @@ Reserved words in JavaScript:
 
 
 ## References
-[https://eloquentjavascript.net/02_program_structure.html](https://eloquentjavascript.net/02_program_structure.html)
-[https://www.youtube.com/watch?v=eIgX6sPOqCY&ab_channel=EamesOffice](https://www.youtube.com/watch?v=eIgX6sPOqCY&ab_channel=EamesOffice)
-[https://dev.to/adriennemiller/semicolons-in-javascript-to-use-or-not-to-use-2nli](https://dev.to/adriennemiller/semicolons-in-javascript-to-use-or-not-to-use-2nli)
-[https://www.programiz.com/javascript/let-vs-var](https://www.programiz.com/javascript/let-vs-var)
-[https://www.w3schools.com/js/js_reserved.asp](https://www.w3schools.com/js/js_reserved.asp)
+[https://eloquentjavascript.net/02_program_structure.html](https://eloquentjavascript.net/02_program_structure.html)  
+[https://www.youtube.com/watch?v=eIgX6sPOqCY&ab_channel=EamesOffice](https://www.youtube.com/watch?v=eIgX6sPOqCY&ab_channel=EamesOffice)  
+[https://dev.to/adriennemiller/semicolons-in-javascript-to-use-or-not-to-use-2nli](https://dev.to/adriennemiller/semicolons-in-javascript-to-use-or-not-to-use-2nli)  
+[https://www.programiz.com/javascript/let-vs-var](https://www.programiz.com/javascript/let-vs-var)  
+[https://www.w3schools.com/js/js_reserved.asp](https://www.w3schools.com/js/js_reserved.asp)  
 
 ## Rights
 Copyright Birkbeck, University of London
