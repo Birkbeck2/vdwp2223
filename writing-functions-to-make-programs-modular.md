@@ -45,7 +45,7 @@ let numPets = pets(3, 5);
 let numFish = function(goldfish, carp) {
   return goldfish + carp;
 }
-console.log(fish(5,2));
+console.log(numFish(5,2));
 ```
 ## Function scope
 
