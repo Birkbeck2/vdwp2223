@@ -35,7 +35,7 @@ Students will be able to do the following with JavaScript:
 
 > statements, `;`, variables, `=`, `let`, `const`, `var`
 
-### Setting up conditional statements
+### [Setting up conditional statements](setting-up-conditional-statements.md)
 
 > conditionals, `if`, `else`, `while`, `{}`, block scope
 
