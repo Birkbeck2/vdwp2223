@@ -31,7 +31,7 @@ Students will be able to do the following with JavaScript:
 #### Priority
 - [EJS](https://eloquentjavascript.net) chapters 2 & 3
 
-[### Assigning variables](https://github.com/Birkbeck2/vdwp2223/blob/main/assigning-variables.md)
+### [Assigning variables](assigning-variables.md)
 
 > statements, `;`, variables, `=`, `let`, `const`, `var`
 
