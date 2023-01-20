@@ -34,6 +34,7 @@ Example:
 ```
 pets(3, 5);
 ```
+Sometimes if you have a lot of code that will be used many times in a program, instead of writing out all the instructions again and again, you can put them in a function and just use a one line function call to do the same thing. This makes your code more efficient. 
 
 Functions can be used as values, and in expressions.
 
