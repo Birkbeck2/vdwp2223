@@ -1,0 +1,18 @@
+[
+	{
+		"name" : "Hits of the 90s",
+		"songs" : [
+			"Mo Money Mo Problems",
+			"Smells Like Teen Spirit"
+		],
+		"complete" : false
+	},
+	{
+		"name" : "Hits of 2000s",
+		"songs" : [
+			"Beautiful Day",
+			"Maps"
+		],
+		"complete" : false
+	}
+]
