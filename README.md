@@ -6,6 +6,8 @@
 
 This repository holds lecture notes for the Web Project side of Visual Design and Web Project, a module in the Department of Film, Media, and Cultural Studies at Birkbeck, University of London. The first three sessions are dedicated to programming with vanilla JavaScript, and the last three cover the basics of making web applications with the JavaScript framework Vue.js.
 
+You can download and run demo files in this repository. See the steps for [installation](INSTALL.md).
+
 ## General Resources
 
 We have one main textbook for programming concepts and vanilla JavaScript: Marijn Haverbeke, *Eloquent JavaScript: A Modern Introduction to Programming* (EJS), third edition, 2018, [https://eloquentjavascript.net/](https://eloquentjavascript.net/).
