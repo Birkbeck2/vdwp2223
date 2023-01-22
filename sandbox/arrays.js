@@ -52,3 +52,15 @@ console.log(theSeasons);
 theSeasons.pop();
 console.log(theSeasons);
 // ['Spring', 'Summer', 'Autumn', 'Winter']
+
+let messyArray = ['Elizabeth Line', 'a rat', 46, false, 'a shoe', {name: 'Frankenstein'}, ['peas', 'carrots']];
+console.log(messyArray);
+// [
+//   'Elizabeth Line',
+//   'a rat',
+//   46,
+//   false,
+//   'a shoe',
+//   { name: 'Frankenstein' },
+//   [ 'peas', 'carrots' ]
+// ]
