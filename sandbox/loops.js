@@ -46,7 +46,7 @@ for (let songTitle in songPlays) {
 for (let i = 0; i < 3; i++) {
 	let order = i + 1;
 	let song = songs[i]
-	toLog = `${order}. ${song}`;
+	let toLog = `${order}. ${song}`;
 	console.log(toLog);
 }
 // 1. Mo Money Mo Problems
