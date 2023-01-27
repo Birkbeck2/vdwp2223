@@ -68,7 +68,7 @@ for (let word of 'The quick brown fox'.split(' ')) {
 	for (let c of word) {
 		if (c == c.toUpperCase()) console.log(c);
 	}
-};
+}
 
 
 let horses = [];
