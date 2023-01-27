@@ -2,7 +2,7 @@
 
 Visual Design and Web Project | Coding Sessions | Joseph Muller
 
-[Previous](forming-data-sets-with-arrays.md) | [All](README.md) | [Next](using-loops.md)
+[Previous](forming-data-sets-with-arrays.md) | [All](README.md) | [Next](loops.md)
 
 # Working with strings
 
