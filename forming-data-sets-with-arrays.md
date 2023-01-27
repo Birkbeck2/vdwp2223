@@ -19,11 +19,11 @@ Arrays are formed with square brackets at the beginning and end, and commas are 
 
 They can be bound to variables, as in this example:
 
-forming-data-sets-with-arrays.js#L1-L4
+https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3/forming-data-sets-with-arrays.js#L1-L4
 
 Arrays can hold all types of data, including strings, numbers, booleans, empty items, and even other arrays.
 
-forming-data-sets-with-arrays.js#L6-L10
+https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3/forming-data-sets-with-arrays.js#L7-L11
 
 ## Indexing
 
@@ -31,11 +31,11 @@ Arrays keep track of the order of their items by giving each one a number, which
 
 This is very helpful when programming, but you have to remember that the numbering starts from `0`, not `1`. Starting at `0` is typical of most programming languages. It's tricky at the beginning, but you will get used to it.
 
-forming-data-sets-with-arrays.js#L13-L14
+https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3/forming-data-sets-with-arrays.js#L14-L15
 
 To access the value by its index, you can put the index inside square brackets after the array or the variable to which it is bound:
 
-forming-data-sets-with-arrays.js#L17-L29
+https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3/forming-data-sets-with-arrays.js#L18-L30
 
 ## Slicing
 
@@ -47,33 +47,33 @@ You can use the `slice` method to get part of an array as a new array.
 
 The `slice` method takes two parameters, the index to start with and the index to go up to. The first number is inclusive, the second is exclusive.
 
-forming-data-sets-with-arrays.js#L32-L38
+https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3/forming-data-sets-with-arrays.js#L33-L39
 
 If you leave the second index out, the slice will go to the end of the array.
 
-forming-data-sets-with-arrays.js#L40-L42
+https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3/forming-data-sets-with-arrays.js#L42-L44
 
 ## Combining
 
 You can combine or *concatenate* multiple arrays into one array with the `concat` method.
 
-forming-data-sets-with-arrays.js#L44-L46
+https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3/forming-data-sets-with-arrays.js#L47-L49
 
 ## Check your understanding
 
 What will be logged to the console?
 
-example
+https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3/forming-data-sets-with-arrays.js#L52-L57
 
 ## Adding and removing
 
 The `pop` method takes off the last item from the array and returns it.
 
-forming-data-sets-with-arrays.js#L49-L54
+https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3/forming-data-sets-with-arrays.js#L60-L65
 
 The `push` method adds whatever you give it to the end of the array. It doesn't return anything, so you don't need to do a binding or anything else to catch an output, like you do with `pop`.
 
-forming-data-sets-with-arrays.js#L57-L60
+https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3/forming-data-sets-with-arrays.js#L68-L70
 
 Notice that both these methods modify the array. The array is bound to `shortFoodList` the whole time, but it changes in place. This is because arrays are *mutable*.
 
@@ -85,7 +85,7 @@ You can get the length of an array with the `length` property.
 
 The length property can be used of any array:
 
-forming-data-sets-with-arrays.js#L62-L63
+https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3/forming-data-sets-with-arrays.js#L73-74
 
 ## Mutability
 
@@ -93,7 +93,7 @@ Every data type in JavaScript is either mutable or immutable. Strings, numbers, 
 
 You can see how this works by binding a value to two variables using a chain, then changing the first one, and checking if the second one changed.
 
-forming-data-sets-with-arrays.js#L66-L70
+https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3/forming-data-sets-with-arrays.js#L77-L81
 
 It doesn't change, because when `deesDinner` is bound, it doesn't point to `robsDinner`, it points to a new string `'spagety'`. So when `robsDinner` is changed to `'dal'`, `deesDinner` still points to a string spelled `'spagety'`.
 
@@ -101,7 +101,7 @@ By contrast, arrays are mutable, so they can be changed, and multiple variables 
 
 Let's run the same test with arrays:
 
-forming-data-sets-with-arrays.js#L73-L77
+https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3/forming-data-sets-with-arrays.js#L84-L88
 
 This time, even though `lunch` was bound before `'sweets'` was added to the array `snacks`, they both point to the same object, so the logged array shows the change.
 
@@ -109,7 +109,7 @@ This time, even though `lunch` was bound before `'sweets'` was added to the arra
 
 What will be logged to the console?
 
-example
+https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3/forming-data-sets-with-arrays.js#L91-L97
 
 ## References
 Marijn Haverbeke, *Eloquent JavaScript: A Modern Introduction to Programming* (EJS), third edition, 2018, [https://eloquentjavascript.net/](https://eloquentjavascript.net/)
