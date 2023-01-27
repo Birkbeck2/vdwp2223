@@ -85,7 +85,7 @@ You can get the length of an array with the `length` property.
 
 The length property can be used of any array:
 
-https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3cbe4876058dae9ec57417273de5fe5ec0/forming-data-sets-with-arrays.js#L73-74
+https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3cbe4876058dae9ec57417273de5fe5ec0/forming-data-sets-with-arrays.js#L73-L74
 
 ## Mutability
 
