@@ -57,7 +57,6 @@ Students will be able to do the following with JavaScript:
 - Describe the characteristics of JavaScript objects and classes
 - Write class definitions and object methods
 - Access object properties and run object methods
-- Export and import code between files
 
 ### Reading
 
@@ -65,23 +64,23 @@ Students will be able to do the following with JavaScript:
 - [EJS](https://eloquentjavascript.net) chapter 4
 
 #### Also recommended
-- [EJS](https://eloquentjavascript.net) chapters 6 & 10
+- [EJS](https://eloquentjavascript.net) chapter 6
 
-### Forming data sets with arrays
+### [Forming data sets with arrays](forming-data-sets-with-arrays.md)
 
-> arrays, `[]`, `in`, indexing, `slice`, `concat`, `indexOf`, `split`, `join`
+> arrays, `[]`, indexing, `slice`, `length`, `concat`, `push`, `pop`, mutability
 
-### Using loops to repeat code
+### [Working with strings](working-with-strings.md)
 
-> iteration, `for...of`
+> indexing, `slice`, `length`, newlines, `\n`, `trim`, string interpolation, backticks, `$`, `{`, `}`, `split`, `join`
 
-### Objects and object-oriented programming
+### [Using loops to repeat code](loops.md)
 
-> objects, properties, maps, destructuring, methods, classes, `class`, inheritance, polymorphism, `instanceof`, `constructor`, `new`
+> iteration, `for...of`, `for`
 
-### Organizing, borrowing, and sharing JavaScript files
+### [Objects and object-oriented programming](objects.md)
 
-> modules, `import`, `export`, `default`, CDNs
+> objects, properties, methods, classes, `class`, inheritance, `constructor`, `new`, maps, `Map`
 
 ## Session 3 - JavaScript in the browser
 
@@ -89,9 +88,45 @@ Students will be able to do the following with JavaScript:
 
 Students will be able to do the following with JavaScript:
 
+- Use strict mode and tests to catch bugs
+- Handle errors and exceptions
+- Export and import code between files
+- Describe the effects of asynchronicity on a program
+- Handle time and uncertainty through callbacks and promises
 - Define the DOM
 - Write JavaScript that reads and mutates the DOM
 - Run code when users perform actions on the DOM
+
+### Reading
+
+#### Priority
+- [EJS](https://eloquentjavascript.net) chapters 11 & 14
+
+#### Also recommended
+- [EJS](https://eloquentjavascript.net) chapters 8, 10, 13, & 15
+
+### Bugs and errors
+
+> strict mode, testing, exceptions, errors, `throw`, `try`, `finally`, `catch`
+
+### Organizing, borrowing, and sharing JavaScript files
+
+> modules, `import`, `export`, `default`, CDNs
+
+### Handling time in JavaScript
+
+> asynchronicity, callbacks, promises, `then`, `resolve`, `async`, `await`
+
+### How JavaScript interacts with a webpage
+
+> Document Object Model (DOM), events
+
+## Session 4 - Visualising data with Javascript
+
+### Learning outcomes
+
+Students will be able to do the following with JavaScript:
+
 - Describe the characteristics of JSON and CSV data formats
 - Get data from hosted files and parse it for use in a program
 - Make calls to a REST API
@@ -101,15 +136,11 @@ Students will be able to do the following with JavaScript:
 ### Reading
 
 #### Priority
-- [EJS](https://eloquentjavascript.net) chapters 13 & 18
+- [EJS](https://eloquentjavascript.net) chapters 17 & 18
 - “Introducing JSON,” json.org, [https://www.json.org/json-en.html](https://www.json.org/json-en.html)
 
 #### Also recommended
-- [EJS](https://eloquentjavascript.net) chapters 15 & 17
-
-### How JavaScript interacts with a webpage
-
-> Document Object Model (DOM), events
+- [EJS](https://eloquentjavascript.net) chapter 15
 
 ### Fetching and storing data
 
@@ -119,7 +150,7 @@ Students will be able to do the following with JavaScript:
 
 > `canvas`, vector and raster (bitmap) images, SVG, transformations
 
-## Session 4 - Simple web applications with Vue
+## Session 5 - Simple web applications with Vue
 
 ### Learning outcomes
 
@@ -160,7 +191,7 @@ Students will be able to do the following with Vue.js:
 
 > event listeners, `v-on`, `@`, `click`, methods
 
-## Session 5 - Inputs and complex rendering in Vue
+## Session 6 - Inputs and complex rendering in Vue
 
 ### Learning outcomes
 
@@ -203,7 +234,7 @@ Students will be able to do the following with Vue.js:
 
 > lifecycle hooks, `created`, `updated`, `mounted`
 
-## Session 6 - Modular web applications with Vue components
+## Session 7 - Modular web applications with Vue components
 
 ### Learning outcomes
 
