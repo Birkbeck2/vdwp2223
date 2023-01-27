@@ -3,6 +3,7 @@ let foodsILike = ['vegy sosajes', 'edamamay', 'sushi', 'seaweed',
 'cookies', 'cupcake', 'cake', 'milk', 'tomatos', 'potatos',
 'karott', 'spagety', 'lasany'];
 
+
 let oddNumbers = [1, 3, 5, 7];
 
 let myMiscArray = [305, 'chips', false, 105, true, 'potatos',  , 'the one before is empty'];
@@ -37,13 +38,23 @@ let otherFoods = foodsILike.slice(13, 14);
 console.log(otherFoods);
 // [ 'milk' ]
 
+
 let lastFewThings = foodsILike.slice(17);
 console.log(lastFewThings);
 // [ 'spagety', 'lasany' ]
 
+
 let combinedFoods = someFoods.concat(otherFoods);
 console.log(combinedFoods);
 // [ 'sushi', 'seaweed', 'sweets', 'licafish', 'milk' ]
+
+
+let movies = ['Jaws', 'Home Alone', 'Get Out'];
+console.log(movies[1]);
+console.log(movies.slice(0, 2));
+console.log(movies.slice(3));
+let moreMovies = movies.concat(['Everything Everywhere All At Once', 'The Lighthouse']);
+console.log(moreMovies[3]);
 
 
 let lastItem = shortFoodList.pop();
@@ -76,13 +87,6 @@ snacks.push('sweets');
 console.log(lunch);
 // ['edamamay', 'cookies', 'sweets']
 
-
-let movies = ['Jaws', 'Home Alone', 'Get Out'];
-console.log(movies[1]);
-console.log(movies.slice(0, 2));
-console.log(movies.slice(3));
-let moreMovies = movies.concat(['Everything Everywhere All At Once', 'The Lighthouse']);
-console.log(moreMovies[3]);
 
 let movies2 = ['Dune', 'Arrival'];
 let movies3 = movies2;
