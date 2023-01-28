@@ -82,6 +82,8 @@ Students will be able to do the following with JavaScript:
 
 > objects, properties, methods, classes, `class`, inheritance, `constructor`, `new`, maps, `Map`
 
+### [Workshop on arrays and objects](https://github.com/Birkbeck2/vdwp2223-workshop-arrays-objects)
+
 ## Session 3 - JavaScript in the browser
 
 ### Learning outcomes
