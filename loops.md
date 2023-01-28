@@ -43,8 +43,8 @@ https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3cbe4876058dae9ec57417273de5fe5
 The parentheses contain three statements, each of which does something specific:
 
   1. Declare the variable to use as counter
-  2. Declare the condition that, when `true`, ends the loop
-  3. Declare how the counter should change between each iteration
+  2. Declare the condition that, when `true`, continues the loop, and when `false`, ends the loop
+  3. Declare how the counter should change after the first iteration and between each subsequent iteration
 
 So in this loop, we are saying: "Start the counter at `0`, stop the loop before it reaches `3`, and after each loop, increment it by `1`."
 
