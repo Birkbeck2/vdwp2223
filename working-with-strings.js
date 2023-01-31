@@ -31,8 +31,8 @@ console.log(dogTrimmed);
 // dog
 
 
-let herName = 'Sheila';
-console.log(`Her name is ${herName}`);
+let name = 'Sheila';
+console.log(`Her name is ${name}`);
 // Her name is Sheila
 
 let product = 'rice';
@@ -79,6 +79,8 @@ console.log(myMiscStringUnderscore);
 console.log('dog'[2]);
 console.log('   cat   '.trim()[0]);
 let animals = ['bird', 'dog', 'whale', 'alligator'];
-console.log(animals.join(' ')[10]);
+console.log(animals.join(' '));
+console.log(animals.join(' ').slice(10));
+console.log(animals.join(' ').slice(10).split(' '));
 console.log(animals.join(' ').slice(10).split(' ').length);
 console.log(`I adopted a ${animals[2]}`);
