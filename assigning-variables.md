@@ -2,7 +2,7 @@
 
 Visual Design and Web Project | Coding Sessions | Helena Wee
 
-[Previous](path/to/file.md) | [All](README.md) | [Next](setting-up-conditional-statements.md)
+[All](README.md) | [Next](setting-up-conditional-statements.md)
 
 # Assigning Variables
 
