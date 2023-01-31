@@ -2,7 +2,7 @@
 
 Visual Design and Web Project | Coding Sessions | Helena Wee
 
-[Previous](path/to/file.md) | [All](README.md)  
+[Previous](setting-up-conditional-statements.md) | [All](README.md)  | [Next](forming-data-sets-with-arrays.md)
 
 # Writing functions to make programs modular
 
