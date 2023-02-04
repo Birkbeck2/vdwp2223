@@ -70,11 +70,21 @@ Of course, the user experience of this function is not great:
 3. It doesn't let the user try to answer the question again.
 4. It ends the program, and the user would have to refresh to get going again.
 
-## Catching errors
+## Catching exceptions
 
-Your program can more gracefully handle errors with `try` and `catch` blocks. If an error is raised during the code in the `try` block, the code in the `catch` block is run. The program won't necessarily end unless another error is raised in the `catch` block.
+Really, you can't expect that users will always provide the right input for such a narrowly defined function.
+
+When an "error" is expected, you can and should accomodate it in your program.
+
+You could broaden the function, so that it handles more types of input. Or you could use HTML to provide the user with a dropdown or toggle, rather than a text input, so that they can only provide valid inputs.
+
+But what if, for some reason, you couldn't do either of those things?
+
+You can use `try` and `catch` blocks. If an error is raised during the code in the `try` block, the code in the `catch` block is run.
 
 https://github.com/Birkbeck2/vdwp2223/blob/2168b317987d7f16eaae962cb9391e1d1a3dba50/bugs-and-errors.js#L86-L96
+
+The program won't necessarily end unless another error is raised in the `catch` block.
 
 This has a better user experience because the program won't necessarily end if the first input is not correct.
 
