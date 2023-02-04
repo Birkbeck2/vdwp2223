@@ -35,8 +35,8 @@ function subtractFourBears(startNum) {
   numBaers = numBears - 4;
   return numBears;
 }
-// let bears = subtractFourBears(52);
-// console.log(bears);
+let bears = subtractFourBears(52);
+console.log(bears);
 // Uncaught ReferenceError: assignment to undeclared variable numBaers
 //     subtractFourBears bugs-and-errors.js:17
 
@@ -45,7 +45,7 @@ function subtractFourBears(startNum) {
 
 
 let aDog = 'dog';
-// aDog.brush();
+aDog.brush();
 // Uncaught TypeError: aDog.brush is not a function
 //     <anonymous> bugs-and-errors.js:7
 
