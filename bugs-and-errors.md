@@ -2,7 +2,7 @@
 
 Visual Design and Web Project | Coding Sessions | Joseph Muller
 
-[Previous](writing-functions-to-make-programs-modular.md) | [All](README.md) | [Next](working-with-strings.md)
+[Previous](objects.md) | [All](README.md) | [Next](.md)
 # Finding bugs and handling errors
 
 ![Two clocks on a tower telling different times](images/time-one-right-one-wrong.jpg)
@@ -59,7 +59,7 @@ Why? If you have functional requirements for a program, but you expect many time
 
 For example, say you have a narrowly defined function `answerYesOrNo` that *must* get a string `"yes"` or a string `"no"` or else it can't run. You write some code that throws an error in all other cases, so you always know when "bad" data is passed.
 
-https://github.com/Birkbeck2/vdwp2223/blob/2168b317987d7f16eaae962cb9391e1d1a3dba50/bugs-and-errors.js#L57-79
+https://github.com/Birkbeck2/vdwp2223/blob/2168b317987d7f16eaae962cb9391e1d1a3dba50/bugs-and-errors.js#L57-L79
 
 This is helpful because it traces the location of the code that caused the exception, just like the automatic messages.
 
@@ -80,20 +80,20 @@ This has a better user experience because the program won't necessarily end if t
 
 ## Check your understanding
 1. What will happen with the following program? What will be logged? Will the program stop running?
-```js
-let shoppingList = ['apples', 'cheese'];
-let result = shoppingList.split('pp');
-```
+    ```js
+    let shoppingList = ['apples', 'cheese'];
+    let result = shoppingList.split('pp');
+    ```
 2. How about this program?
-```js
-try {
-  let sum = 50192 + 22;
-  sum += aStory;
-} catch (error) {
-  console.log(error);
-}
-console.log('The sun is shining');
-```
+    ```js
+    try {
+      let sum = 50192 + 22;
+      sum += aStory;
+    } catch (error) {
+      console.log(error);
+    }
+    console.log('The sun is shining');
+    ```
 
 ## References
 Marijn Haverbeke, *Eloquent JavaScript: A Modern Introduction to Programming* (EJS), third edition, 2018, [https://eloquentjavascript.net/](https://eloquentjavascript.net/)
