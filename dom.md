@@ -70,7 +70,7 @@ In most cases, you won't want to use properties alone. Most HTML documents are d
 
 So, the DOM also has query methods for getting elements by tag name, by id, and by class.
 
-https://github.com/Birkbeck2/vdwp2223/blob/223e5c75a7bf3e802df62260cf728f8385f168e5/dom.jsL21-L35
+https://github.com/Birkbeck2/vdwp2223/blob/223e5c75a7bf3e802df62260cf728f8385f168e5/dom.js#L21-L35
 
 Notice that two of these methods return sets of elements, while one (`getElementById`) returns a single object representing an element. The sets are represented by `HTMLCollection` objects, which share some properties of arrays. They have a length, and they can be iterated over or picked through with indexes like `0` or `2`. 
 
@@ -108,6 +108,7 @@ https://github.com/Birkbeck2/vdwp2223/blob/223e5c75a7bf3e802df62260cf728f8385f16
 
 ## References
 Marijn Haverbeke, *Eloquent JavaScript: A Modern Introduction to Programming* (EJS), third edition, 2018, [https://eloquentjavascript.net/](https://eloquentjavascript.net/)
+
 “HTMLCollection,” Mozilla Developer Network, [https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection).
 
 “NodeList,” Mozilla Developer Network, [https://developer.mozilla.org/en-US/docs/Web/API/NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList).
