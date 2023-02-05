@@ -1,0 +1,23 @@
+p.answer {
+  color: green;
+}
+
+body {
+  background-color: ivory;
+  margin:auto;
+  max-width: 600px;
+}
+
+section {
+  padding-bottom: 30px;
+}
+
+.box {
+	background-color: green;
+	height: 200px;
+	width: 200px;
+}
+
+.box.bumped {
+	margin-left: 200px;
+}
