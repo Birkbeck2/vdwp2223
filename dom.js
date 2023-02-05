@@ -89,7 +89,7 @@ for (let p of ps) {
 	console.log(p.textContent);
 }
 // Nothing
-// Nothing
+// Nothing much
 // Makin it
 console.log(ps[0]);
 // <p id="a1" class="answer">
