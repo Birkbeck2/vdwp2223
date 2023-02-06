@@ -111,11 +111,13 @@ Students will be able to do the following with JavaScript:
 
 ### [How and when JavaScript can change a webpage](events.md)
 
-> modifying the DOM, events, `addEventListener`
+> modifying the DOM, events, `addEventListener`, `click`, callbacks
 
 ### [Finding bugs and handling errors](bugs-and-errors.md)
 
 > strict mode, testing, exceptions, errors, `throw`, `try`, `finally`, `catch`
+
+### [Workshop on the DOM and events](https://github.com/Birkbeck2/vdwp2223-workshop-javascript-browser)
 
 
 ## Session 4 - Visualising data with Javascript
