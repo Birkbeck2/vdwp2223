@@ -4,7 +4,7 @@
 
 ## About this repository
 
-This repository holds lecture notes for the Web Project side of Visual Design and Web Project, a module in the Department of Film, Media, and Cultural Studies at Birkbeck, University of London. The first three sessions are dedicated to programming with vanilla JavaScript, and the last three cover the basics of making web applications with the JavaScript framework Vue.js.
+This repository holds lecture notes for the Web Project side of Visual Design and Web Project, a module in the Department of Film, Media, and Cultural Studies at Birkbeck, University of London. The first four sessions are dedicated to programming with vanilla JavaScript, and the last three cover the basics of making web applications with the JavaScript framework Vue.js.
 
 You can download and run demo files in this repository. See the steps for [installation](INSTALL.md).
 
@@ -105,15 +105,15 @@ Students will be able to do the following with JavaScript:
 #### Also recommended
 - [EJS](https://eloquentjavascript.net) chapters 8, 10, 11 & 13
 
-### How JavaScript reads a webpage
+### [How JavaScript reads a webpage](dom.md)
 
 > Document Object Model (DOM), `document`, `getElementById`, `getElementsByTagName`, `getElementsByClassName`, `HTMLCollection`, `Element`, `querySelector`, `querySelectorAll`, `NodeList`, `Node`, live and static objects
 
-### Changing a webpage on user input
+### [Changing a webpage on user input](events.md)
 
 > modifying the DOM, events, `addEventListener`
 
-### Bugs and errors
+### [Bugs and errors](bugs-and-errors.md)
 
 > strict mode, testing, exceptions, errors, `throw`, `try`, `finally`, `catch`
 
