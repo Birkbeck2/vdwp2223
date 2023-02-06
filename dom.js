@@ -15,9 +15,6 @@ console.log(typeof whatsHappening);
 // string
 
 
-
-
-
 let h2s = document.getElementsByTagName('h2');
 console.log(h2s);
 // HTMLCollection { 0: h2#q1.question.greeting, 1: h2#q2.question.greeting, 2: h2#q3.question.greeting, length: 3, … }
@@ -35,8 +32,6 @@ console.log(answers);
 // HTMLCollection { 0: p#a1.answer, 1: p#a2.answer, 2: p#a3.answer, length: 3, … }
 
 
-
-
 for (let h2 of h2s) {
 	console.log(h2);
 }
@@ -47,9 +42,6 @@ for (let h2 of h2s) {
 let firstH2 = h2s[0];
 console.log(firstH2);
 // <h2 id="q1" class="question greeting">
-
-
-
 
 
 console.log(q2.id);
@@ -69,6 +61,14 @@ console.log(firstH2.textContent);
 // What's good?
 
 
+let firstH2Class = firstH2.getAttribute('class');
+console.log(firstH2Class);
+
+let htmlLang = document.getElementsByTagName('html')[0].getAttribute('lang');
+console.log(scriptSrc);
+
+let scriptSrc = document.getElementsByTagName('script')[0].getAttribute('src');
+console.log(scriptSrc);
 
 
 
