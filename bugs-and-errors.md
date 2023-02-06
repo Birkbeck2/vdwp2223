@@ -2,7 +2,7 @@
 
 Visual Design and Web Project | Coding Sessions | Joseph Muller
 
-[Previous](objects.md) | [All](README.md) | [Next](.md)
+[Previous](events.md) | [All](README.md)
 # Finding bugs and handling errors
 
 ![Two clocks on a tower telling different times](images/time-one-right-one-wrong.jpg)

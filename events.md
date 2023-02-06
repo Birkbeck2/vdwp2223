@@ -2,7 +2,7 @@
 
 Visual Design and Web Project | Coding Sessions | Joseph Muller
 
-[Previous](dom.md) | [All](README.md) | [Next]()
+[Previous](dom.md) | [All](README.md) | [Next](bugs-and-errors.md)
 # How and when JavaScript can change a webpage
 
 ![Small shoots of flowers and leaves emerge from the stump of a tree](images/grafted-apple-tree.jpg)
@@ -11,18 +11,19 @@ Visual Design and Web Project | Coding Sessions | Joseph Muller
 
 Websites are often designed to take inputs from the user and make changes based on those inputs. Some inputs and changes can be handled by HTML and CSS alone, like changing a button border and color on click, changing a the background of a `div` on hover, or dropping down a submenu.
 
-Many more advanced interactivity happens through JavaScript's ability to change the DOM. 
+Beyond these design cases, most interactivity happens through JavaScript's ability to change the DOM.
 
-You now know how to access segments of the DOM by various means. DOM elements also give you a number of methods and properties that can change the DOM, which will update the webpage in real time.
+The DOM gives you a number of methods and properties that can be used to change the DOM, which will update the webpage in real time.
 
-JavaScript also has a way to listen for user inputs and run code in response that changes the DOM. This is the basis of most interactivity with a webpage.
+JavaScript also has a way to listen for user inputs and run code to modify the DOM in response. This is the basis of most interactivity with a webpage.
 
 ## Changing the DOM
 
-Let us first go over how to make changes to the DOM. By default, these changes will happen as soon as the page loads.
+Let us first go over how to make changes to the DOM. If we write them in a sequential way in our `.js` file, they will happen as soon as the page loads.
 
-For comparison with the rendered result, here is the original HTML.
+So, to catch the changes, you need to compare the original HTML with the rendered page or the inspected DOM in the browser.
 
+Here is the original HTML.
 
 https://github.com/Birkbeck2/vdwp2223/blob/dfaefe56a69c2b4247108f5468eb8ff28ef24c3e/events.html#L1-L31
 
@@ -57,6 +58,41 @@ Passing in a string will result in text content and new elements if they are fou
 https://github.com/Birkbeck2/vdwp2223/blob/dfaefe56a69c2b4247108f5468eb8ff28ef24c3e/events.js#L42-L43
 
 The `outerHTML` property provides a similar replacement operation, but the HTML string you give it will be used to replace the `Element` object itself, in addition to its contents.
+
+### Live versus static events
+
+Recall that we said the `getElementsBy` methods returns a live set of objects. This means it will also point to new objects that fit the criterion as they are created.
+
+However, the `querySelector` and `querySelectorAll` methods return a static set of objects.
+
+You can see the difference in this example.
+```html
+<script>
+  const leafElements = document.getElementsByTagName('p');
+  const leafNodes = document.querySelectorAll('p');
+</script>
+<p>🍁</p>
+<p>🍁</p>
+<p>🍁</p>
+<script>
+  console.log(leafElements.length);
+  // 3
+  console.log(leafNodes.length);
+  // 0
+</script>
+```
+### Check your understanding
+1. What will the rendered document be?
+    ```html
+    <p>🍁</p>
+    <p>🍁🍁</p>
+    <p>🍁🍁🍁</p>
+    <p>🍁🍁🍁🍁</p>
+    <p>🍁🍁🍁🍁🍁</p>
+    <script>
+    document.getElementsByTagName('p')[3].remove()
+    </script>
+    ```
 
 ## Events
 

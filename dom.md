@@ -2,7 +2,7 @@
 
 Visual Design and Web Project | Coding Sessions | Joseph Muller
 
-[Previous](bugs-and-errors.md) | [All](README.md) | [Next]()
+[Previous](objects.md) | [All](README.md) | [Next](events.md)
 # How JavaScript reads a webpage
 ```mermaid
 graph LR
