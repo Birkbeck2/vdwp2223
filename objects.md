@@ -2,7 +2,7 @@
 
 Visual Design and Web Project | Coding Sessions | Joseph Muller
 
-[Previous](loops.md) | [All](README.md)
+[Previous](loops.md) | [All](README.md) | [Next](dom.md)
 
 # Objects and object-oriented programming
 

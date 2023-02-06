@@ -4,7 +4,7 @@
 
 ## About this repository
 
-This repository holds lecture notes for the Web Project side of Visual Design and Web Project, a module in the Department of Film, Media, and Cultural Studies at Birkbeck, University of London. The first three sessions are dedicated to programming with vanilla JavaScript, and the last three cover the basics of making web applications with the JavaScript framework Vue.js.
+This repository holds lecture notes for the Web Project side of Visual Design and Web Project, a module in the Department of Film, Media, and Cultural Studies at Birkbeck, University of London. The first four sessions are dedicated to programming with vanilla JavaScript, and the last three cover the basics of making web applications with the JavaScript framework Vue.js.
 
 You can download and run demo files in this repository. See the steps for [installation](INSTALL.md).
 
@@ -84,44 +84,39 @@ Students will be able to do the following with JavaScript:
 
 ### [Workshop on arrays and objects](https://github.com/Birkbeck2/vdwp2223-workshop-arrays-objects)
 
+
 ## Session 3 - JavaScript in the browser
 
 ### Learning outcomes
 
 Students will be able to do the following with JavaScript:
 
-- Use strict mode and tests to catch bugs
-- Handle errors and exceptions
-- Export and import code between files
-- Describe the effects of asynchronicity on a program
-- Handle time and uncertainty through callbacks and promises
 - Define the DOM
 - Write JavaScript that reads and mutates the DOM
 - Run code when users perform actions on the DOM
+- Catch bugs with console logging, type checking, and strict mode
+- Handle errors and exceptions
 
 ### Reading
 
 #### Priority
-- [EJS](https://eloquentjavascript.net) chapters 11 & 14
+- [EJS](https://eloquentjavascript.net) chapters 14 & 15
 
 #### Also recommended
-- [EJS](https://eloquentjavascript.net) chapters 8, 10, 13, & 15
+- [EJS](https://eloquentjavascript.net) chapters 8, 10, 11 & 13
 
-### Bugs and errors
+### [How JavaScript reads a webpage](dom.md)
+
+> Document Object Model (DOM), `document`, `getElementById`, `getElementsByTagName`, `getElementsByClassName`, `HTMLCollection`, `Element`, `querySelector`, `querySelectorAll`, `NodeList`, `Node`, live and static objects
+
+### [How and when JavaScript can change a webpage](events.md)
+
+> modifying the DOM, events, `addEventListener`
+
+### [Finding bugs and handling errors](bugs-and-errors.md)
 
 > strict mode, testing, exceptions, errors, `throw`, `try`, `finally`, `catch`
 
-### Organizing, borrowing, and sharing JavaScript files
-
-> modules, `import`, `export`, `default`, CDNs
-
-### Handling time in JavaScript
-
-> asynchronicity, callbacks, promises, `then`, `resolve`, `async`, `await`
-
-### How JavaScript interacts with a webpage
-
-> Document Object Model (DOM), events
 
 ## Session 4 - Visualising data with Javascript
 
@@ -142,7 +137,7 @@ Students will be able to do the following with JavaScript:
 - “Introducing JSON,” json.org, [https://www.json.org/json-en.html](https://www.json.org/json-en.html)
 
 #### Also recommended
-- [EJS](https://eloquentjavascript.net) chapter 15
+- [EJS](https://eloquentjavascript.net) chapter 11
 
 ### Fetching and storing data
 
