@@ -109,11 +109,11 @@ Students will be able to do the following with JavaScript:
 
 > Document Object Model (DOM), `document`, `getElementById`, `getElementsByTagName`, `getElementsByClassName`, `HTMLCollection`, `Element`, `querySelector`, `querySelectorAll`, `NodeList`, `Node`, live and static objects
 
-### [Changing a webpage on user input](events.md)
+### [How and when JavaScript can change a webpage](events.md)
 
 > modifying the DOM, events, `addEventListener`
 
-### [Bugs and errors](bugs-and-errors.md)
+### [Finding bugs and handling errors](bugs-and-errors.md)
 
 > strict mode, testing, exceptions, errors, `throw`, `try`, `finally`, `catch`
 

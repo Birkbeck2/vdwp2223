@@ -127,8 +127,6 @@ https://github.com/Birkbeck2/vdwp2223/blob/dfaefe56a69c2b4247108f5468eb8ff28ef24
 ## References
 Marijn Haverbeke, *Eloquent JavaScript: A Modern Introduction to Programming* (EJS), third edition, 2018, [https://eloquentjavascript.net/](https://eloquentjavascript.net/)
 
-“getComputedStyle,” Mozilla Developer Network, [https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle](https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle).
-
 ## Rights
 Copyright Birkbeck, University of London
 
