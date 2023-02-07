@@ -115,7 +115,7 @@ Students will be able to do the following with JavaScript:
 
 ### [Finding bugs and handling errors](bugs-and-errors.md)
 
-> strict mode, testing, exceptions, errors, `throw`, `try`, `finally`, `catch`
+> strict mode, exceptions, errors, `throw`, `try`, `catch`
 
 ### [Workshop on the DOM and events](https://github.com/Birkbeck2/vdwp2223-workshop-javascript-browser)
 
