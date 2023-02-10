@@ -25,25 +25,25 @@ So, to catch the changes, you need to compare the original HTML with the rendere
 
 Here is the original HTML.
 
-https://github.com/Birkbeck2/vdwp2223/blob/dfaefe56a69c2b4247108f5468eb8ff28ef24c3e/events.html#L1-L31
+https://github.com/Birkbeck2/vdwp2223/blob/0bb0e9d643119d413b25252f916cdb6b977acbd3/events.html#L1-L31
 
 ### Removing elements
 
 You can call the `remove` method to remove a `Node` or `Element` object from the DOM.
 
-https://github.com/Birkbeck2/vdwp2223/blob/dfaefe56a69c2b4247108f5468eb8ff28ef24c3e/events.js#L1-L5
+https://github.com/Birkbeck2/vdwp2223/blob/0bb0e9d643119d413b25252f916cdb6b977acbd3/events.js#L1-L5
 
 ### Creating elements
 
 You can create new `Element` objects and attach them to the DOM.
 
-https://github.com/Birkbeck2/vdwp2223/blob/dfaefe56a69c2b4247108f5468eb8ff28ef24c3e/events.js#L11-L16
+https://github.com/Birkbeck2/vdwp2223/blob/0bb0e9d643119d413b25252f916cdb6b977acbd3/events.js#L11-L16
 
 ### Changing attributes
 
 And you can change attributes by reassigning the corresponding properties of the `Element` object.
 
-https://github.com/Birkbeck2/vdwp2223/blob/dfaefe56a69c2b4247108f5468eb8ff28ef24c3e/events.js#L22-L29
+https://github.com/Birkbeck2/vdwp2223/blob/0bb0e9d643119d413b25252f916cdb6b977acbd3/events.js#L22-L29
 
 ### The `innerHTML` property
 
@@ -51,11 +51,11 @@ If you'd rather write snippets of HTML than modify things step-by-step with `Ele
 
 Assigning `innerHTML` to an empty string will just remove all the children.
 
-https://github.com/Birkbeck2/vdwp2223/blob/dfaefe56a69c2b4247108f5468eb8ff28ef24c3e/events.js#L35-L36
+https://github.com/Birkbeck2/vdwp2223/blob/0bb0e9d643119d413b25252f916cdb6b977acbd3/events.js#L35-L36
 
 Passing in a string will result in text content and new elements if they are found in the string.
 
-https://github.com/Birkbeck2/vdwp2223/blob/dfaefe56a69c2b4247108f5468eb8ff28ef24c3e/events.js#L42-L43
+https://github.com/Birkbeck2/vdwp2223/blob/0bb0e9d643119d413b25252f916cdb6b977acbd3/events.js#L42-L43
 
 The `outerHTML` property provides a similar replacement operation, but the HTML string you give it will be used to replace the `Element` object itself, in addition to its contents.
 
@@ -104,7 +104,7 @@ You can define these *event listeners* by calling the `addEventListener` method 
 
 The event will only be registered if it happens to the object you put the listener on. Here is an example:
 
-https://github.com/Birkbeck2/vdwp2223/blob/dfaefe56a69c2b4247108f5468eb8ff28ef24c3e/events.js#L48-L64
+https://github.com/Birkbeck2/vdwp2223/blob/0bb0e9d643119d413b25252f916cdb6b977acbd3/events.js#L48-L65
 
 Let's break this down. The method `addEventListener` takes two parameters:
     1. A string matching one of the [recognized event types](https://developer.mozilla.org/en-US/docs/Web/API/Element#events), like `click` (primary key click or touch), `keypress`, `focus`
@@ -116,13 +116,23 @@ The above example doesn't make use of the event in the callback function. But so
 
 To use it, make sure to specify some parameter in the callback function that binds the event to a name. It can be anything but `event` and `e` are conventional variable names.
 
-https://github.com/Birkbeck2/vdwp2223/blob/dfaefe56a69c2b4247108f5468eb8ff28ef24c3e/events.js#L69-L77
+https://github.com/Birkbeck2/vdwp2223/blob/0bb0e9d643119d413b25252f916cdb6b977acbd3/events.js#L69-L77
 
 ### Writing the callback as an arrow function
 
 Callback functions are sometimes written as arrow or anonymous functions inside the calling of the event listener, rather than being passed in by name. This can be trickier to read, but it is commonly used for simple functions.
 
-https://github.com/Birkbeck2/vdwp2223/blob/dfaefe56a69c2b4247108f5468eb8ff28ef24c3e/events.js#L82-L88
+https://github.com/Birkbeck2/vdwp2223/blob/0bb0e9d643119d413b25252f916cdb6b977acbd3/events.js#L82-L88
+
+## Check your understanding
+
+1. Is there anything wrong with this code?
+
+https://github.com/Birkbeck2/vdwp2223/blob/0bb0e9d643119d413b25252f916cdb6b977acbd3/events.js#L94-L100
+
+2. How about this? (By the way, 'mouseover' is a valid event type that fires when the mouse moves over an element.)
+
+https://github.com/Birkbeck2/vdwp2223/blob/0bb0e9d643119d413b25252f916cdb6b977acbd3/events.js#L106-L115
 
 ## References
 Marijn Haverbeke, *Eloquent JavaScript: A Modern Introduction to Programming* (EJS), third edition, 2018, [https://eloquentjavascript.net/](https://eloquentjavascript.net/)
