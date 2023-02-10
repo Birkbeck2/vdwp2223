@@ -130,7 +130,7 @@ https://github.com/Birkbeck2/vdwp2223/blob/0bb0e9d643119d413b25252f916cdb6b977ac
 
 https://github.com/Birkbeck2/vdwp2223/blob/0bb0e9d643119d413b25252f916cdb6b977acbd3/events.js#L94-L100
 
-2. How about this? (By the way, 'mouseover' is a valid event type that fires when the mouse moves over an element.)
+2. How about this? (By the way, `mouseover` is a valid event type that fires when the mouse moves over an element.)
 
 https://github.com/Birkbeck2/vdwp2223/blob/0bb0e9d643119d413b25252f916cdb6b977acbd3/events.js#L106-L115
 
