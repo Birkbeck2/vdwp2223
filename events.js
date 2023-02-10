@@ -46,7 +46,6 @@ a3.innerHTML = '<em>Extremely</em> well, <span style="color: purple; font-size: 
 
 
 const switchButton = document.getElementById('switch');
-switchButton.addEventListener('click', changePicture);
 
 function changePicture() {
 	const picturePaths = [
@@ -63,17 +62,19 @@ function changePicture() {
 	console.log('New path is', img.src);
 }
 
+switchButton.addEventListener('click', changePicture);
+
 
 
 
 const greetings = document.getElementsByClassName('greeting');
 
-for (let greeting of greetings) {
-  greeting.addEventListener('click', sayAgain)
-}
-
 function sayAgain(event) {
 	event.target.innerHTML = event.target.innerHTML + ' ' + event.target.innerHTML;
+}
+
+for (let greeting of greetings) {
+  greeting.addEventListener('click', sayAgain)
 }
 
 
@@ -87,3 +88,28 @@ for (let answer of answers) {
 	});
 }
 
+
+
+
+const questions = document.getElementsByClassName('question');
+
+function logMe(event) {
+	console.log(event.target);
+}
+
+questions[1].addEventListener('click', logMe); // = logMe;
+
+
+
+
+
+const question3 = document.getElementById('q3');
+
+function replace(text) {
+	event.innerHTML = text;
+}
+
+question3.addEventListener(
+	'mouseover',
+	replace('Put <em>this text</em> as inner HTML')
+);
