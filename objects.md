@@ -12,7 +12,7 @@ Visual Design and Web Project | Coding Sessions | Joseph Muller
 
 The *object* is the last and most flexible of the JavaScript data types. An object can represent anything, and it can be internally structured in a number of ways.
 
-Objects allow you to move past just using a set of functions to organize your program. They let you gather data together with the functions that operate on that data, and they make it easier for programmers to understand and remember what the pieces of the program represent in the real world.
+Objects allow you to move past just using a set of functions to organize your program. They let you gather data together with the functions that operate on that data, and they make it easier for programmers to understand and remember what the pieces of the program represent in the wider world.
 
 ## Object syntax
 
@@ -34,21 +34,21 @@ Accessing a property or method is done by writing the object name, a dot, the na
 
 https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3cbe4876058dae9ec57417273de5fe5ec0/objects.js#L14-L23
 
-We have seen properties and methods before. All strings have a `.length` property built in. All arrays have a `push()` method.
+We have seen properties and methods before. All strings have a `length` property built in. All arrays have a `push()` method.
 
-Think also of `console.log()`. The `console` is a built-in object that JavaScript makes available to JavaScript code when it is run, and `log` is a method that evaluates the parameter passed and prints the result in the graphical representation of the `console` object.
+Think also of `console.log()`. The `console` is a built-in object that JavaScript makes available to JavaScript code when it is run, and `log()` is a method that evaluates the parameter passed and prints the result in the graphical representation of the `console` object.
 
 ## Why use objects?
 
-When you use objects in programs, you are creating a conceptual link between the program and the real world. You are using using a thing, person, or idea to inspire the structure of your program, keeping data and functions related to that thing all together.
+When you use objects in programs, you are creating a conceptual link between the program and the wider world. You are using using a thing, person, or idea to inspire the structure of your program, keeping data and functions related to that thing all together.
 
-For example, if you are baking two pieces of bread, you may want to keep track of whether each one has been baked already, while still having access to the `bake` function for each one.
+For example, if you are baking two pieces of bread, you may want to keep track of whether each one has been baked independently, while still having access to the `bake` function for each one.
 
 https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3cbe4876058dae9ec57417273de5fe5ec0/objects.js#L26-L42
 
-This approach is called *object-oriented programming*. Programmers with this paradigm find it useful to have a correspondence between the structures in the program and things or people or concepts in the real world.
+This approach is called *object-oriented programming*. Programmers with this paradigm find it useful to have a correspondence between the structures in the program and things or people or concepts in the wider world.
 
-There are alternative paradigms, such as *procedural programming*. To write a program procedurally, you would instead organize your code as series of functions, with inputs and outputs for data. The data might not come into contact with the functions except as inputs or outpus.
+There are alternative paradigms, such as *procedural programming*. To write a program procedurally, you would instead organize your code as series of functions, with inputs and outputs for data. The data might not come into contact with the functions except as inputs or outputs.
 
 In web design, you may find a need for both kinds of programming. It is worth knowing the difference to decide what is the best approach for each use case.
 
@@ -74,15 +74,17 @@ It looks like this:
 
 https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3cbe4876058dae9ec57417273de5fe5ec0/objects.js#L58-L67
 
-By convention, you capitalize the first word of class definitions, even though it's not a strict requirement of the language.
+By convention, you capitalize the first letter of class names, even though it's not a strict requirement of the language. So, `Bread` not `bread`.
 
 The method `constructor` is a special method that runs when a new object is created with that class.
 
 You can think of a class definition as a factory for objects of that type.
 
-To power up the factory, or in this case fire up the bakery, call the class with the keyword `new` and parentheses.
+To power up the factory, or in this case fire up the bakery, call the class with the keyword `new` and put parentheses at the end of the class name, much like calling a function.
 
 https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3cbe4876058dae9ec57417273de5fe5ec0/objects.js#L70-L78
+
+The resulting value passed to the variable binding will be an *instance* of that class. It will be unique from every other object created by that class, because objects are mutable.
 
 ## Inheritance
 
@@ -90,7 +92,7 @@ What if you have several slightly different types of bread? All of them need a `
 
 So, you need a way to separately define types of bread in different classes, while inheriting common properties from a common bread class.
 
-Class definitions provide for inheritance with the `extends` keyword. You can write class ddefinitions that draw on others, pulling in their properties.
+Class definitions provide for inheritance with the `extends` keyword. This allows you to write class definitions that draw on other class definitions, pulling in their properties and methods.
 
 https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3cbe4876058dae9ec57417273de5fe5ec0/objects.js#L81-L89
 
@@ -100,13 +102,15 @@ Once you've defined a subclass, you can access methods defined on it and its sup
 
 https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3cbe4876058dae9ec57417273de5fe5ec0/objects.js#L92-L96
 
+If you define a method or bind a property on a subclass that is already present in the superclass, it will generally overwrite the definition or binding in the superclass. This is helpful for modifying the default behavior of the ancestor object.
+
 ## Maps
 
-Maps are a special kind of object that are optimized for holding data.
+Maps are a special kind of built-in object that are optimized for holding data. You can make a map objects by calling for new instances of the class `Map`:
 
 https://github.com/Birkbeck2/vdwp2223/blob/6b85fd3cbe4876058dae9ec57417273de5fe5ec0/objects.js#L99-L106
 
-They hold a series of key-value pairs. The left-hand side of the `set()` method is the key, and the right-hand is the value. You can check whether a key exists in the map with `has()` and the key, and you can retrive a value by passing the key to `get()`.
+They hold a series of key-value pairs. The left-hand side of the `set()` method is the key, and the right-hand is the value. You can check whether a key exists in the map with `has()` and the key, and you can retrive a value `get()` and the key.
 
 You can get an iterator of all the keys in a map with the `keys()` method.
 
