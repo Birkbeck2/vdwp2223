@@ -124,7 +124,7 @@ Callback functions are sometimes written as arrow or anonymous functions inside 
 
 https://github.com/Birkbeck2/vdwp2223/blob/0bb0e9d643119d413b25252f916cdb6b977acbd3/events.js#L82-L88
 
-## Check your understanding
+### Check your understanding
 
 1. Is there anything wrong with this code?
 
