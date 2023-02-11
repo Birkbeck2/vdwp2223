@@ -5,9 +5,9 @@ Visual Design and Web Project | Coding Sessions | Joseph Muller
 [Previous](dom.md) | [All](README.md) | [Next](bugs-and-errors.md)
 # How and when JavaScript can change a webpage
 
-![Small shoots of flowers and leaves emerge from the stump of a tree](images/grafted-apple-tree.jpg)
+![A green chameleon resting on the branch of a tree](images/chameleon-branch.jpg)
 
-*"Newly grafted apple tree" by Washington State Department of Agriculture is licensed under [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=openverse).*
+*"Chameleon on the branch" by Tambako the Jaguar is licensed under [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/?ref=openverse).*
 
 Websites are often designed to take inputs from the user and make changes based on those inputs. Some inputs and changes can be handled by HTML and CSS alone, like changing a button border and color on click, changing a the background of a `div` on hover, or dropping down a submenu.
 
