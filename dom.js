@@ -65,7 +65,7 @@ let firstH2Class = firstH2.getAttribute('class');
 console.log(firstH2Class);
 
 let htmlLang = document.getElementsByTagName('html')[0].getAttribute('lang');
-console.log(scriptSrc);
+console.log(htmlLang);
 
 let scriptSrc = document.getElementsByTagName('script')[0].getAttribute('src');
 console.log(scriptSrc);
@@ -109,3 +109,19 @@ let secondQuestionAnswer = document.getElementById('qa2');
 let justPsUnderSecondQuestionAnswer = secondQuestionAnswer.getElementsByTagName('p');
 console.log(justPsUnderSecondQuestionAnswer);
 // HTMLCollection { 0: p#a2.answer, length: 1, … }
+
+
+
+
+
+// The next line has two problems
+let whatsGood = document.getElementsByClass("What's Good");
+console.log(whatsGood);
+
+
+
+
+
+// The next line has two problems
+let questions = document.getElementsById('#q');
+console.log(questions);
