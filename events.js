@@ -97,7 +97,7 @@ function logMe(event) {
 	console.log(event.target);
 }
 
-questions[1].addEventListener('click', logMe); // = logMe;
+questions[1].addEventListener('click') = logMe;
 
 
 
