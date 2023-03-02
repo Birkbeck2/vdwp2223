@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetching a File with File Protocol</title>
+</head>
+<body>
+    <p>Open this file with file:/// to see if it works</p>
+    <p>Did it work?</p>
+    <p id='result'></p>
+    <script>
+        fetch('fileProtocolFetch.json')
+        .then(response => {
+          document.querySelector('#result').innerHTML = 'Yes ' + response 
+        })
+        .catch(response => {
+          document.querySelector('#result').innerHTML = 'No! ' + response
+        })
+    </script>
+</body>
+</html>
