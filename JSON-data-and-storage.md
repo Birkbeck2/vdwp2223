@@ -86,6 +86,158 @@ Numbers in JSON must be an integer or a floating point.
 
 ![JSON vs JavaScript object](images/table.png)
 
+### JSON.parse()
+
+JSON can commonly be used to exchange data to/from a web server. When receiving data from a web server it may come in the form of a JSON string. You can parse the data using JSON.parse() to make the data a JavaScript object.
+
+The following text was received from a web server:
+
+```
+'{"name":"John", "age":30, "city":"New York"}'
+```
+
+Here's how you use the JSON.parse() method to convert text into a JavaScript object:
+
+```
+const obj = JSON.parse('{"name":"John", "age":30, "city":"New York"}');
+```
+
+You need to make sure the text is in JSON format or else you will get a syntax error.
+
+You can then use the JavaScript object in a web page:
+
+```
+<p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML = obj.name;
+</script>
+```
+
+Date objects are not allowed in JSON so if you need to include a date, write it as a string (you can convert it to a date object later):
+
+```
+const text = '{"name":"John", "birth":"1986-12-14", "city":"New York"}';
+const obj = JSON.parse(text);
+obj.birth = new Date(obj.birth);
+```
+
+document.getElementById("demo").innerHTML = obj.name + ", " + obj.birth;
+
+The reviver parameter of the JSON.parse() method is a function that checks each property before returning the value. Here it is used to convert a string into a date:
+
+```
+const text = '{"name":"John", "birth":"1986-12-14", "city":"New York"}';
+const obj = JSON.parse(text, function (key, value) {
+  if (key == "birth") {
+    return new Date(value);
+  } else {
+    return value;
+  }
+});
+```
+
+document.getElementById("demo").innerHTML = obj.name + ", " + obj.birth;
+
+### JSON.stringify()
+
+You can also convert a JavaScript object into a JSON string using JSON.stringify().
+
+When sending data to a web server, data has to be in the form of a string.
+
+To convert a JavaScript object into a string use JSON.stringify().
+
+```
+const obj = {name: "John", age: 30, city: "New York"};
+const myJSON = JSON.stringify(obj);
+```
+
+The result will be a string following the JSON notation. myJSON, will then be ready to be sent to a server.
+
+If date objects or functions are used as values in a JavaScript object, when converting them into a JSON string using JSON.stringify() dates will be converted into strings, and any functions will be removed from the object. In the case of functions both key and value will be removed.
+
+### JSON strings for storing JavaScript objects in localStorage
+
+JSON makes it possible to store JavaScript objects as text.
+
+Storing data in local storage:
+
+```
+// Storing data:
+const myObj = {name: "John", age: 31, city: "New York"};
+const myJSON = JSON.stringify(myObj);
+localStorage.setItem("testJSON", myJSON);
+
+// Retrieving data:
+let text = localStorage.getItem("testJSON");
+let obj = JSON.parse(text);
+document.getElementById("demo").innerHTML = obj.name;
+```
+
+### Acccessing values from JSON using loops or brackets
+
+It is a common mistake to call a JSON object literal "a JSON object".
+JSON cannot be an object. JSON is a string format.
+
+To access object values you can use the dot (.) notation:
+
+```
+const myJSON = '{"name":"John", "age":30, "car":null}';
+const myObj = JSON.parse(myJSON);
+x = myObj.name;
+You can also access object values using bracket ([]) notation:
+
+const myJSON = '{"name":"John", "age":30, "car":null}';
+const myObj = JSON.parse(myJSON);
+x = myObj["name"];
+```
+
+You can loop through objects with a for-in loop:
+
+```
+const myJSON = '{"name":"John", "age":30, "car":null}';
+const myObj = JSON.parse(myJSON);
+
+let text = "";
+for (const x in myObj) {
+  text += x + ", ";
+}
+```
+
+You can use the bracket notation to access the property values:
+
+```
+const myJSON = '{"name":"John", "age":30, "car":null}';
+const myObj = JSON.parse(myJSON);
+
+let text = "";
+for (const x in myObj) {
+  text += myObj[x] + ", ";
+}
+```
+
+### JSON Arrays
+
+Arrays in JSON are almost the same as arrays in JavaScript. JSON array values must be of type string, number, object, array, boolean or null.
+
+```
+// This is a JSON string:
+'["Ford", "BMW", "Fiat"]'
+
+// Inside the JSON string there is a JSON array literal:
+["Ford", "BMW", "Fiat"]
+```
+
+You can create a JavaScript array using JSON.parse(). You can access JSON array values by index, like JavaScript arrays
+
+For more information on JSON arrays goto: https://www.w3schools.com/js/js_json_arrays.asp.
+
+### JSON references and tools
+
+Free to use JSON datasets: https://github.com/jdorfman/awesome-json-datasets.
+
+Use https://jsonbeautify.com/ to look at complicated JSONs and format them so they are understandable.
+
+
 
 
 
