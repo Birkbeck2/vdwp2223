@@ -306,7 +306,10 @@ A reference list (incomplete) of canvas methods and properties can be found here
 
 
 ## References
-
+https://eloquentjavascript.net/17_canvas.html  
+https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API  
+https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes  
+https://www.w3schools.com/tags/ref_canvas.asp  
 
 ## Rights
 Copyright Birkbeck, University of London
