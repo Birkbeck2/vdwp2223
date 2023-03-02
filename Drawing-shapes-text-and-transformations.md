@@ -4,7 +4,7 @@ Visual Design and Web Project | Coding Sessions | [lecturer name]
 
 [Previous](path/to/file.md) | [All](README.md) | [Next](path/to/file.md)
 
-## Drawing shapes
+## Drawing shapes, text and transformations
 
 ## SVG
 
