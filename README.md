@@ -143,7 +143,7 @@ Students will be able to do the following with JavaScript:
 
 ### Fetching and storing data
 
-> back end and front end, JSON, CSV, APIs, making GET requests, `fetch`, `localStorage`
+> back end and front end, JSON, APIs, making GET requests, `fetch`, `localStorage`
 
 ### Drawing shapes
 
