@@ -137,9 +137,9 @@ const obj = JSON.parse(text, function (key, value) {
     return value;
   }
 });
-```
 
 document.getElementById("demo").innerHTML = obj.name + ", " + obj.birth;
+```
 
 ## JSON.stringify()
 
