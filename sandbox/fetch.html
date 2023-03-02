@@ -13,8 +13,8 @@
         let cx = canvas.getContext("2d");
 
         fetch('https://api.worldbank.org/v2/countries/USA/indicators/SP.POP.TOTL?per_page=5000&format=json')
-        .then(data => {
-          return data.json();
+        .then(response => {
+          return response.json();
         })
         .then(jsonArr => {
             let myArray = jsonArr[1];
@@ -23,7 +23,7 @@
             }
             return USpopulation;
         })
-        .then(drawRects => {
+        .then(USpopulation => {
             for(let i=1960; i<2021; i++){
               let num = i-1960;
               let height = Math.round((USpopulation[num].value)/1000000);
