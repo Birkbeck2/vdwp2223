@@ -6,6 +6,8 @@ Visual Design and Web Project | Coding Sessions | Helena Wee
 
 # Visualising data with Javascript
 
+![Visualising data with JavaScript](images/data.png)
+
 ## JSON data and storage
 
 ## History of JSON
