@@ -97,7 +97,7 @@ The following text was received from a web server:
 '{"name":"John", "age":30, "city":"New York"}'
 ```
 
-Here's how you use the JSON.parse() method to convert text into a JavaScript object:
+Here's how you use the `JSON.parse()` method to convert text into a JavaScript object:
 
 ```
 const obj = JSON.parse('{"name":"John", "age":30, "city":"New York"}');
