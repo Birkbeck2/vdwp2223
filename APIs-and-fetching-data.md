@@ -1,8 +1,8 @@
 ![Birkbeck, University of London](images/birkbeck-logo.jpg)
 
-Visual Design and Web Project | Coding Sessions | [lecturer name]
+Visual Design and Web Project | Coding Sessions | Helena Wee]
 
-[Previous](path/to/file.md) | [All](README.md) | [Next](path/to/file.md)
+[Previous](JSON-data-and-storage.md) | [All](README.md) | [Next](Drawing-shapes-text-and-transformations.md)
 
 ## APIs in client-side JavaScript
 
