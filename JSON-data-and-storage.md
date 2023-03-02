@@ -8,7 +8,7 @@ Visual Design and Web Project | Coding Sessions | [lecturer name]
 
 ## JSON data and storage
 
-### History of JSON
+## History of JSON
 
 JSON or JavaScript Object Notation was introduced in the early 2000s as a way of describing and exchanging text-based data.
 
@@ -20,7 +20,7 @@ It is native to JavaScript but can also be used with other programming languages
 
 Today JSON is the universal standard of data exchange.
 
-### What is JSON
+## What is JSON
 
 JSON is a way of serialising objects, arrays, numbers, strings, booleans and null.
 
@@ -82,11 +82,11 @@ JSON syntax is derived from JavaScript object notation syntax:
 
 Numbers in JSON must be an integer or a floating point.
 
-### JSON vs JavaScript object
+## JSON vs JavaScript object
 
 ![JSON vs JavaScript object](images/table.png)
 
-### JSON.parse()
+## JSON.parse()
 
 JSON can commonly be used to exchange data to/from a web server. When receiving data from a web server it may come in the form of a JSON string. You can parse the data using JSON.parse() to make the data a JavaScript object.
 
@@ -138,7 +138,7 @@ const obj = JSON.parse(text, function (key, value) {
 
 document.getElementById("demo").innerHTML = obj.name + ", " + obj.birth;
 
-### JSON.stringify()
+## JSON.stringify()
 
 You can also convert a JavaScript object into a JSON string using JSON.stringify().
 
@@ -155,7 +155,7 @@ The result will be a string following the JSON notation. myJSON, will then be re
 
 If date objects or functions are used as values in a JavaScript object, when converting them into a JSON string using JSON.stringify() dates will be converted into strings, and any functions will be removed from the object. In the case of functions both key and value will be removed.
 
-### JSON strings for storing JavaScript objects in localStorage
+## JSON strings for storing JavaScript objects in localStorage
 
 JSON makes it possible to store JavaScript objects as text.
 
@@ -173,7 +173,7 @@ let obj = JSON.parse(text);
 document.getElementById("demo").innerHTML = obj.name;
 ```
 
-### Acccessing values from JSON using loops or brackets
+## Acccessing values from JSON using loops or brackets
 
 It is a common mistake to call a JSON object literal "a JSON object".
 JSON cannot be an object. JSON is a string format.
@@ -215,7 +215,7 @@ for (const x in myObj) {
 }
 ```
 
-### JSON Arrays
+## JSON Arrays
 
 Arrays in JSON are almost the same as arrays in JavaScript. JSON array values must be of type string, number, object, array, boolean or null.
 
@@ -231,7 +231,7 @@ You can create a JavaScript array using JSON.parse(). You can access JSON array 
 
 For more information on JSON arrays goto: https://www.w3schools.com/js/js_json_arrays.asp.
 
-### JSON references and tools
+## JSON references and tools
 
 Free to use JSON datasets: https://github.com/jdorfman/awesome-json-datasets.
 
