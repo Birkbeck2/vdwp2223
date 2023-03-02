@@ -84,7 +84,7 @@ Numbers in JSON must be an integer or a floating point.
 
 ### JSON vs JavaScript object
 
-![JSON vs JavaScript object](images/table.jpg)
+![JSON vs JavaScript object](images/table.png)
 
 
 
