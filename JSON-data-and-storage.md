@@ -28,7 +28,9 @@ It is used to store and transport data. It is self-describing and easy to unders
 
 When downloading JSON from the internet it normally looks something like this:
 
+```
 {"name":"John", "age":30, "car":null}
+```
 
 In the example above there are three properties: name, age, and car.
 
@@ -79,6 +81,10 @@ JSON syntax is derived from JavaScript object notation syntax:
 -	Square brackets hold arrays
 -	
 Numbers in JSON must be an integer or a floating point.
+
+### JSON vs JavaScript object
+
+
 
 
 
