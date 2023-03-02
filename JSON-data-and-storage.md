@@ -6,8 +6,6 @@ Visual Design and Web Project | Coding Sessions | [lecturer name]
 
 # Visualising data with Javascript
 
-![Opener image if desired](path/to/image.png)
-
 ## JSON data and storage
 
 ### History of JSON
