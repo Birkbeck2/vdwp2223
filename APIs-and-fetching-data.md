@@ -141,7 +141,22 @@ function loadDoc() {
   
 
 ## References
-
+https://eloquentjavascript.net/11_async.html  
+https://eloquentjavascript.net/18_http.html  
+https://developer.mozilla.org/en-US/docs/Web/API  
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch  
+https://www.freecodecamp.org/news/how-to-make-api-calls-with-fetch/  
+https://www.freecodecamp.org/news/asynchronous-javascript-explained/  
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction  
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data  
+https://www.w3schools.com/js/js_api_fetch.asp  
+https://developer.mozilla.org/en-US/docs/Web/API/Response/json  
+https://developer.mozilla.org/en-US/docs/Web/API/Response/text  
+https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest  
+https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/responseText  
+https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/load_event  
+https://livecodestream.dev/post/5-ways-to-make-http-requests-in-javascript/#xmlhttprequest  
+https://www.w3schools.com/Js/js_ajax_http_send.asp  
 
 ## Rights
 Copyright Birkbeck, University of London
