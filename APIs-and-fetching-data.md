@@ -4,6 +4,8 @@ Visual Design and Web Project | Coding Sessions | Helena Wee]
 
 [Previous](JSON-data-and-storage.md) | [All](README.md) | [Next](Drawing-shapes-text-and-transformations.md)
 
+## APIs and fetching data
+
 ## APIs in client-side JavaScript
 
 APIs stands for Application Programming Interfaces.
