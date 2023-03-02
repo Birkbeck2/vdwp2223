@@ -141,14 +141,15 @@ Students will be able to do the following with JavaScript:
 #### Also recommended
 - [EJS](https://eloquentjavascript.net) chapter 11
 
-### JSON data and storage
+### [JSON data and storage](JSON-data-and-storage.md)
 
 > JSON, JSON string, JSON array, JSON methods, `localStorage`
 
-### APIs and fetching data
+### [APIs and fetching data](APIs-and-fetching-data.md)
+
 > APIs, making GET requests, `fetch`
 
-### Drawing shapes, text and transformations
+### [Drawing shapes, text and transformations](Drawing-shapes-text-and-transformations.md)
 
 > SVG, `canvas`, vector and raster (bitmap) images, text, transformations
 
