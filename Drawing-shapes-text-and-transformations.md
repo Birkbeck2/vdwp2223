@@ -2,7 +2,7 @@
 
 Visual Design and Web Project | Coding Sessions | [lecturer name]
 
-[Previous](path/to/file.md) | [All](README.md) | [Next](path/to/file.md)
+[Previous](APIs-and-fetching-data.md) | [All](README.md) | [Next](path/to/file.md)
 
 ## Drawing shapes, text and transformations
 
