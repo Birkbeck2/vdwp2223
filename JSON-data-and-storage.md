@@ -51,6 +51,7 @@ JSON strings contain JSON object literals:
 ```
 
 JSON object literals are surrounded by curly braces {}. They contain key/value pairs. Keys and values are separated by a colon. Keys must be strings, and values must be a valid JSON data type:
+
 -	string
 -	number
 -	object
@@ -88,7 +89,7 @@ Numbers in JSON must be an integer or a floating point.
 
 ## JSON.parse()
 
-JSON can commonly be used to exchange data to/from a web server. When receiving data from a web server it may come in the form of a JSON string. You can parse the data using JSON.parse() to make the data a JavaScript object.
+JSON can commonly be used to exchange data to/from a web server. When receiving data from a web server it may come in the form of a JSON string. You can parse the data using `JSON.parse()` to make the data a JavaScript object.
 
 The following text was received from a web server:
 
@@ -123,7 +124,7 @@ obj.birth = new Date(obj.birth);
 document.getElementById("demo").innerHTML = obj.name + ", " + obj.birth;
 ```
 
-The reviver parameter of the JSON.parse() method is a function that checks each property before returning the value. Here it is used to convert a string into a date:
+The reviver parameter of the `JSON.parse()` method is a function that checks each property before returning the value. Here it is used to convert a string into a date:
 
 ```
 const text = '{"name":"John", "birth":"1986-12-14", "city":"New York"}';
@@ -140,11 +141,11 @@ document.getElementById("demo").innerHTML = obj.name + ", " + obj.birth;
 
 ## JSON.stringify()
 
-You can also convert a JavaScript object into a JSON string using JSON.stringify().
+You can also convert a JavaScript object into a JSON string using `JSON.stringify()`.
 
 When sending data to a web server, data has to be in the form of a string.
 
-To convert a JavaScript object into a string use JSON.stringify().
+To convert a JavaScript object into a string use `JSON.stringify()`.
 
 ```
 const obj = {name: "John", age: 30, city: "New York"};
@@ -153,7 +154,7 @@ const myJSON = JSON.stringify(obj);
 
 The result will be a string following the JSON notation. myJSON, will then be ready to be sent to a server.
 
-If date objects or functions are used as values in a JavaScript object, when converting them into a JSON string using JSON.stringify() dates will be converted into strings, and any functions will be removed from the object. In the case of functions both key and value will be removed.
+If date objects or functions are used as values in a JavaScript object, when converting them into a JSON string using `JSON.stringify()` dates will be converted into strings, and any functions will be removed from the object. In the case of functions both key and value will be removed.
 
 ## JSON strings for storing JavaScript objects in localStorage
 
@@ -227,7 +228,7 @@ Arrays in JSON are almost the same as arrays in JavaScript. JSON array values mu
 ["Ford", "BMW", "Fiat"]
 ```
 
-You can create a JavaScript array using JSON.parse(). You can access JSON array values by index, like JavaScript arrays
+You can create a JavaScript array using `JSON.parse()`. You can access JSON array values by index, like JavaScript arrays
 
 For more information on JSON arrays goto: https://www.w3schools.com/js/js_json_arrays.asp.
 
