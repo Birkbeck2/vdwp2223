@@ -141,13 +141,16 @@ Students will be able to do the following with JavaScript:
 #### Also recommended
 - [EJS](https://eloquentjavascript.net) chapter 11
 
-### Fetching and storing data
+### JSON data and storage
 
-> back end and front end, JSON, APIs, making GET requests, `fetch`, `localStorage`
+> JSON, JSON string, JSON array, JSON methods, `localStorage`
 
-### Drawing shapes
+### APIs and Fetching data
+> APIs, making GET requests, `fetch`
 
-> `canvas`, vector and raster (bitmap) images, SVG, transformations
+### Drawing shapes, text and transformations
+
+> SVG, `canvas`, vector and raster (bitmap) images, text, transformations
 
 ## Session 5 - Simple web applications with Vue
 
