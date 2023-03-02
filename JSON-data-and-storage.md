@@ -242,10 +242,10 @@ Use https://jsonbeautify.com/ to look at complicated JSONs and format them so th
 
 
 ## References
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
-https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
-https://www.w3schools.com/js/js_json_arrays.asp
-https://jsonbeautify.com/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON  
+https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage  
+https://www.w3schools.com/js/js_json_arrays.asp  
+https://jsonbeautify.com/  
 
 ## Rights
 Copyright Birkbeck, University of London
