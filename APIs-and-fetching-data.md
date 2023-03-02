@@ -81,7 +81,9 @@ An endpoint is a unique url you call to interact with another system.
 
 When making a request to an external API to get some data (a GET request) simply call `fetch()` with the endpoint url as the argument:
 
+```
 fetch('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson');
+```
 
 The response object (returned data) body for this endpoint will be information (in JSON format) on all earthquakes that have happened in the past hour.
 
