@@ -6,7 +6,7 @@ Visual Design and Web Project | Coding Sessions | [lecturer name]
 
 ## Drawing shapes, text and transformations
 
-![Drawing shapes, text and transformations](images/shape.png)
+![Drawing shapes, text and transformations](images/shapes.jpg)
 
 ## SVG
 
