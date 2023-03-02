@@ -145,7 +145,7 @@ Students will be able to do the following with JavaScript:
 
 > JSON, JSON string, JSON array, JSON methods, `localStorage`
 
-### APIs and Fetching data
+### APIs and fetching data
 > APIs, making GET requests, `fetch`
 
 ### Drawing shapes, text and transformations
