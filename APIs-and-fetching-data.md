@@ -41,7 +41,7 @@ This is common for data driven websites such as Amazon, YouTube, and eBay. With 
 -	Less data is downloaded on each update, meaning less wasted bandwidth. This makes it simpler for mobile downloads in countries that don't have much access to fast internet speeds.
 To speed things up further some sites store assets and data on the user's computer when first requested, meaning subsequent visits use local versions. Content is only reloaded from server when it has been updated.
 
-The response interface of the Fetch API represents the response to a data request. The response object is often returned as a result of an API method call, such as fetch().
+The response interface of the Fetch API represents the response to a data request. The response object is often returned as a result of an API method call, such as `fetch()`.
 
 Fetch API is commonly used to request data from text files to populate a content area:
 
@@ -69,7 +69,7 @@ Async indicates that it is an asynchronous function. Asynchronous means that the
 
 In the above example, the async function calls an external API without halting the execution of other instructions. Other functions on the site continue to run even when the API call has not been resolved. Instructions are not necessarily executed one after the other as is normally the case.
 
-Here fetch() returns a response object (the data) and text() acts on the response object returning a promise that resolves to a string.
+Here `fetch()` returns a response object (the data) and `text()` acts on the response object returning a promise that resolves to a string.
 
 For more on async functions see: https://www.freecodecamp.org/news/asynchronous-javascript-explained/
 
@@ -77,7 +77,7 @@ For more on async functions see: https://www.freecodecamp.org/news/asynchronous-
 
 An endpoint is a unique url you call to interact with another system.
 
-When making a request to an external API to get some data (a GET request) simply call fetch() with the endpoint url as the argument:
+When making a request to an external API to get some data (a GET request) simply call `fetch()` with the endpoint url as the argument:
 
 fetch('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson');
 
@@ -85,7 +85,7 @@ The response object (returned data) body for this endpoint will be information (
 
 The response body contains a lot of information.
 
-The data returned from the API is not usually useable. You need to convert the data to a form which JavaScript can operate with. To do this use the response object’s json() method to convert the JSON into a JavaScript object:
+The data returned from the API is not usually useable. You need to convert the data to a form which JavaScript can operate with. To do this use the response object’s `json()` method to convert the JSON into a JavaScript object:
 
 ```
 fetch('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson')
@@ -97,7 +97,7 @@ console.log(post.metadata.title + " - data fetched!");
 });
 ```
 
-Above nesting a subsequent then() method is used to parse the data after it has been fetched. Once it has been converted to a JavaScript object using the json() method, the then() method is used again to post the metadata.title value from the JSON to the console, along with an added string.
+Above nesting a subsequent `then()` method is used to parse the data after it has been fetched. Once it has been converted to a JavaScript object using the `json()` method, the `then()` method is used again to post the metadata.title value from the JSON to the console, along with an added string.
 
 To make a POST request to send data to a server you can also use fetch. But for this you will need to pass an object of configuration options as a second argument. This is something you are unlikely to use in your assignment, but more about this can be found here: https://www.freecodecamp.org/news/how-to-make-api-calls-with-fetch/
 
@@ -110,9 +110,9 @@ AJAX is Asynchronous JavaScript And XML. It is not a programming language. It ju
 
 Using the XMLHttpRequest object to request data from a server is an older method than using the Fetch API, but one to be aware of.
 
-The XMLHttpRequest object is used to request data from a server. In the following code onload() is an event which fires when the XMLHttpRequest transaction completes successfully, and responseText is a property of the XMLHttpRequest object.
+The XMLHttpRequest object is used to request data from a server. In the following code `onload()` is an event which fires when the XMLHttpRequest transaction completes successfully, and responseText is a property of the XMLHttpRequest object.
 
-The open() line is a GET request to the server at the url in the second parameter. The send() method prints the response text to the HTML page within the paragraph with id=”demo”.
+The `open()` line is a GET request to the server at the url in the second parameter. The `send()` method prints the response text to the HTML page within the paragraph with id=”demo”.
 
 ```
 <!DOCTYPE html>
