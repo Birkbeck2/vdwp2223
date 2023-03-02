@@ -6,6 +6,8 @@ Visual Design and Web Project | Coding Sessions | Helena Wee]
 
 ## APIs and fetching data
 
+![APIs and fetching data](images/fetch.jpg)
+
 ## APIs in client-side JavaScript
 
 APIs stands for Application Programming Interfaces.
