@@ -1,8 +1,8 @@
 ![Birkbeck, University of London](images/birkbeck-logo.jpg)
 
-Visual Design and Web Project | Coding Sessions | [lecturer name]
+Visual Design and Web Project | Coding Sessions | Helena Wee
 
-[Previous](path/to/file.md) | [All](README.md) | [Next](path/to/file.md)
+[Previous](bugs-and-errors.md) | [All](README.md) | [Next](APIs-and-fetching-data.md)
 
 # Visualising data with Javascript
 
