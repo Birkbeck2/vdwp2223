@@ -119,9 +119,9 @@ Date objects are not allowed in JSON so if you need to include a date, write it 
 const text = '{"name":"John", "birth":"1986-12-14", "city":"New York"}';
 const obj = JSON.parse(text);
 obj.birth = new Date(obj.birth);
-```
 
 document.getElementById("demo").innerHTML = obj.name + ", " + obj.birth;
+```
 
 The reviver parameter of the JSON.parse() method is a function that checks each property before returning the value. Here it is used to convert a string into a date:
 
