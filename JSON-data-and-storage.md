@@ -187,8 +187,11 @@ To access object values you can use the dot (.) notation:
 const myJSON = '{"name":"John", "age":30, "car":null}';
 const myObj = JSON.parse(myJSON);
 x = myObj.name;
+```
+
 You can also access object values using bracket ([]) notation:
 
+```
 const myJSON = '{"name":"John", "age":30, "car":null}';
 const myObj = JSON.parse(myJSON);
 x = myObj["name"];
