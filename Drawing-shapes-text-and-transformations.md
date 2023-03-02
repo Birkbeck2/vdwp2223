@@ -6,6 +6,8 @@ Visual Design and Web Project | Coding Sessions | [lecturer name]
 
 ## Drawing shapes, text and transformations
 
+![Drawing shapes, text and transformations](images/shapes.png)
+
 ## SVG
 
 SVG stands for scalable vector graphics.
