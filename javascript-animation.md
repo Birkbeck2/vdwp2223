@@ -25,7 +25,7 @@ clearTimeout(setTimeout_variable);
 
 These can be using in conjunction with CSS styles on document object model elements to create animations.
 
-Here's an example using setInterval() :
+Here's an example using `setInterval()` :
 ```
 //Position of space station over earth (image moving on top of world map)
 let cx = document.querySelector("canvas").getContext("2d");
@@ -54,7 +54,7 @@ setInterval(function () {
 }, 120);
 ```
 
-Here's an example using setTimeout():
+Here's an example using `setTimeout()`:
 
 ```
 //Randomly positioned emojis
@@ -84,7 +84,7 @@ async function getEmojis(file) {
 }
 ```
 
-Here's another example setInterval() to create trails:
+Here's another example using `setInterval()` to create trails:
 
 ```
 //Emoji trails
@@ -144,7 +144,7 @@ class Emoji{
 }
 ```
 
-You can also use clearInterval() to clear a timer set with setInterval(). To clear an interval, you make a variable equal setInterval(), and then use the id returned from this within the clearInterval(intervalId) method:
+You can also use `clearInterval()` to clear a timer set with `setInterval()`. To clear an interval, you make a variable equal `setInterval()`, and then use the id returned from this within the clearInterval(intervalId) method:
 
 ```
 //Button setInterval() and clearInterval() example
@@ -201,7 +201,7 @@ function myMove() {
 </html>
 ```
 
-There is also a clearTimeout() method which works in a similar way.
+There is also a `clearTimeout()` method which works in a similar way.
 
 ## requestAnimationFrame()
 
@@ -209,13 +209,13 @@ requestAnimationFrame(callback);
 
 The callback is the same as a function or set of instructions to do something.
 
-requestAnimationFrame allows you to execute code on the next available screen repaint, syncing with the user’s browser and hardware to make changes to the screen.
+`requestAnimationFrame()` allows you to execute code on the next available screen repaint, syncing with the user’s browser and hardware to make changes to the screen.
 
 The animation code is called when the user’s computer is ready to make changes to the screen each time, resulting in smoother, more efficient animation.
 
-When requestAnimationFrame() is called run in background tabs in the browser these are slowed or paused to further save system resources (no point running an animation that is not seen).
+When `requestAnimationFrame()` is called run in background tabs in the browser these are slowed or paused to further save system resources (no point running an animation that is not seen).
 
-It can be cancelled using cancelAnimationFrame().
+It can be cancelled using `cancelAnimationFrame()`.
 
 ```
 var adiv = document.getElementById('mydiv')
@@ -226,9 +226,9 @@ requestAnimationFrame(function(timestamp){
 })
 ```
 
-The above code is similar to using setTimeout() to run the same code, except instead of after a user defined delay, the code is called on the next available screen repaint, typically 16.7 milliseconds based on typical screen refresh rate of 60fps. The code only runs once.
+The above code is similar to using `setTimeout()` to run the same code, except instead of after a user defined delay, the code is called on the next available screen repaint, typically 16.7 milliseconds based on typical screen refresh rate of 60fps. The code only runs once.
 
-requestAnimationFrame() can be called recursively to construct frame by frame animation, with each frame being called only when the browser is ready for it.
+`requestAnimationFrame()` can be called recursively to construct frame by frame animation, with each frame being called only when the browser is ready for it.
 
 In a re-written version of the first example, the div now moves smoothly across the screen 5 pixels at a time:
 
@@ -288,7 +288,7 @@ Here’s another recursive example that moves a heading:
 </html>
 ```
 
-cancelAnimationFrame() works in a similar way to clearTimeout() and clearInterval(). This is through making a variable equal requestAnimationFrame(), and then using the id returned from this within the cancelAnimationFrame(requestId) method.
+`cancelAnimationFrame()` works in a similar way to `clearTimeout()` and `clearInterval()`. This is through making a variable equal `requestAnimationFrame()`, and then using the id returned from this within the cancelAnimationFrame(requestId) method.
 
 ## Other ways to animate in JavaScript
 
