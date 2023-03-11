@@ -153,6 +153,7 @@ Students will be able to do the following with JavaScript:
 
 > SVG, `canvas`, vector and raster (bitmap) images, text, transformations
 
+
 ## Session 5 - Tooling up for web projects
 
 ### Learning outcomes
@@ -169,16 +170,22 @@ Students will be able to do the following:
 ### Reading
 
 #### Priority
+
 - Maybell Obadoni, “How to Use the Command Line Interface - For Beginners,” freeCodeCamp, Sep 27, 2022, [https://www.freecodecamp.org/news/how-to-use-the-cli-beginner-guide/](https://www.freecodecamp.org/news/how-to-use-the-cli-beginner-guide/)
 - Ray Villalobos, “Learning Git and GitHub,” LinkedIn Learning, Aug 27, 2021, [https://www.linkedin.com/learning/learning-git-and-github-14213624](https://www.linkedin.com/learning/learning-git-and-github-14213624)
-- Michael Karén, "JavaScript tutorial: Get started with Canvas animations", May 21, 2021, [https://www.educative.io/blog/canvas-animations-in-javascript](https://www.educative.io/blog/canvas-animations-in-javascript)  
-  
+- Michael Karén, "JavaScript tutorial: Get started with Canvas animations", May 21, 2021, [https://www.educative.io/blog/canvas-animations-in-javascript](https://www.educative.io/blog/canvas-animations-in-javascript)
+
 #### Also recommended
 - [EJS](https://eloquentjavascript.net/08_error.html), chapter 8
+
+### [Command line tools](command-line-tools.md)
+
+> Terminal, Git Bash, `ls`, `pwd`, `touch`, `mv`, `cat`, `git`
 
 ### [JavaScript Animation](javascript-animation.md)
 
 > `setTimeout()`, `setInterval()`, `requestAnimationFrame()`, p5.js and JavaScript libraries
+
 
 ## Session 6 - Simple web applications with Vue
 
