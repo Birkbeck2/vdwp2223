@@ -292,6 +292,13 @@ cancelAnimationFrame() works in a similar way to clearTimeout() and clearInterva
 
 ## Other ways to animate in JavaScript
 
+[p5.js](https://p5js.org/)
+
+Examples of animation in p5.js and Processing: [OpenProcessing](https://openprocessing.org/)
+
+[Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API)
+
+[three.js](https://threejs.org/)
 
 
 ## References
