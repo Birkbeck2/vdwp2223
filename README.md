@@ -173,7 +173,7 @@ Students will be able to do the following:
 - Ray Villalobos, “Learning Git and GitHub,” LinkedIn Learning, Aug 27, 2021, [https://www.linkedin.com/learning/learning-git-and-github-14213624](https://www.linkedin.com/learning/learning-git-and-github-14213624)
 - Michael Karén, "JavaScript tutorial: Get started with Canvas animations", May 21, 2021, [https://www.educative.io/blog/canvas-animations-in-javascript](https://www.educative.io/blog/canvas-animations-in-javascript)  
   
-##### Also recommended
+#### Also recommended
 - [EJS](https://eloquentjavascript.net/08_error.html), chapter 8
 
 ### JavaScript Animation
