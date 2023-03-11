@@ -6,7 +6,7 @@ Visual Design and Web Project | Coding Sessions | Helena Wee
 
 # JavaScript Animation
 
-![Opener image if desired](path/to/image.png)
+![JavaScript Animation](images/jsAnim.jpg)
 
 ## Timing in JavaScript
 
