@@ -203,7 +203,7 @@ function myMove() {
 
 There is also a clearTimeout() method which works in a similar way.
 
-requestAnimationFrame()
+## requestAnimationFrame()
 
 requestAnimationFrame(callback);
 
