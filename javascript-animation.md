@@ -292,6 +292,8 @@ cancelAnimationFrame() works in a similar way to clearTimeout() and clearInterva
 
 ## Other ways to animate in JavaScript
 
+There are many different ways to animate in JavaScript. So far we have seen animation using various timing methods in JavaScript. We can also use a library to do animations on the canvas and elsewhere in the page. Here are some libraries and APIs used in JavaScript animation, but there are also many more:
+
 [p5.js](https://p5js.org/)
 
 Examples of animation in p5.js and Processing: [OpenProcessing](https://openprocessing.org/)
