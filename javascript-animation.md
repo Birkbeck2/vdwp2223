@@ -2,7 +2,7 @@
 
 Visual Design and Web Project | Coding Sessions | Helena Wee
 
-[Previous](path/to/file.md) | [All](README.md) | [Next](path/to/file.md)
+[Previous](command-line-tools.md) | [All](README.md)
 
 # JavaScript Animation
 
