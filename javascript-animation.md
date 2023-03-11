@@ -302,7 +302,17 @@ Examples of animation in p5.js and Processing: [OpenProcessing](https://openproc
 
 
 ## References
-
+https://www.tutorialspoint.com/javascript/javascript_animation.htm#  
+https://www.w3schools.com/jsref/met_win_settimeout.asp  
+https://www.w3schools.com/jsref/met_win_cleartimeout.asp  
+https://www.w3schools.com/jsref/met_win_setinterval.asp  
+https://www.w3schools.com/jsref/met_win_clearinterval.asp  
+https://www.w3schools.com/js/js_htmldom_animate.asp  
+http://www.javascriptkit.com/javatutors/requestanimationframe.shtml  
+https://p5js.org/  
+https://openprocessing.org/  
+https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API  
+https://threejs.org/  
 
 ## Rights
 Copyright Birkbeck, University of London
