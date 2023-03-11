@@ -92,6 +92,8 @@ way of building your command-line skills.
 
 ## References
 
+Maybell Obadoni, “How to Use the Command Line Interface - For Beginners,” freeCodeCamp, Sep 27, 2022, [https://www.freecodecamp.org/news/how-to-use-the-cli-beginner-guide/](https://www.freecodecamp.org/news/how-to-use-the-cli-beginner-guide/)
+
 Ray Villalobos, “Learning Git and GitHub”, August 27, 2021,
 [https://www.linkedin.com/learning/learning-git-and-github-14213624](https://www.linkedin.com/learning/learning-git-and-github-14213624)
 
