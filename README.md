@@ -153,7 +153,7 @@ Students will be able to do the following with JavaScript:
 
 > SVG, `canvas`, vector and raster (bitmap) images, text, transformations
 
-## Session 5 - Simple web applications with Vue
+## Session 5 - Tooling up for web projects
 
 ### Learning outcomes
 
