@@ -176,7 +176,7 @@ Students will be able to do the following:
 #### Also recommended
 - [EJS](https://eloquentjavascript.net/08_error.html), chapter 8
 
-### [JavaScript Animation](javaScript-animation.md)
+### [JavaScript Animation](javascript-animation.md)
 
 > `setTimeout()`, `setInterval()`, `requestAnimationFrame()`, p5.js and JavaScript libraries
 
